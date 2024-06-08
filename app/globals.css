@@ -3,9 +3,19 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --color--cream-yellow: #feeec6;
+  --fonts--para: "Generalsans Variable", sans-serif;
+  --color--dark: black;
+  --fonts--heading: "Plus Jakarta Sans", sans-serif;
+  --color--grey: #454545;
+  --color--yellow: #fbc53c;
+  --color--heading: #151515;
+  --color--green: #445635;
+  --color--white: #fff;
+  --color-bg: #9ab8a5;
+  --color--bg: #edefee;
+  --white: white;
+  --black: black;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,17 +27,62 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  margin: 0;
+  font-family: sans-serif;
+  font-size: var(--fs-400);
+  line-height: 1.6;
 }
 
+/* basic css reset */
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+img,
+li,
+ul,
+nav,
+header,
+section,
+article,
+main {
+  margin: 0;
+  padding: 0;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+
+  .main-container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+  }
+
+  .hero-grid {
+    display: grid;
+    grid-template-columns: min-content 2fr 3fr;
+    grid-template-rows: repeat(2, min-content);
+  }
+
+  /* 
+  @media screen and (max-width: 767px) {
+    .main-container {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    .main-container {
+      max-width: 760px;
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+  } */
 }
