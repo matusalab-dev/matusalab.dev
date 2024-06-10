@@ -3,9 +3,9 @@ import NavBar from "../components/NavBar";
 
 const page = () => {
   return (
-    <div className=" px-10">
+    <div className="inverse full-bleed h-screen">
       {" "}
-      <NavBar project="/project-details" />
+      <NavBar />
       <h1 className="flex justify-center flex-col w-max mr-auto md:mx-auto text-center text-4xl md:text-7xl font-[900] mt-8 capitalize">
         Project details
         <Link

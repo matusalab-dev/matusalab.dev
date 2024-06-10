@@ -16,6 +16,9 @@
   --color--bg: #edefee;
   --white: white;
   --black: black;
+
+  scroll-behavior: smooth;
+  scroll-padding-top: 3em;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -40,6 +43,7 @@ h3,
 h4,
 p,
 a,
+br,
 img,
 li,
 ul,
@@ -56,12 +60,22 @@ main {
     text-wrap: balance;
   }
 
-  .main-container {
+  /* .main-container {
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
-    /* padding-left: 30px;
-    padding-right: 30px; */
+    padding-left: 30px;
+    padding-right: 30px;
+  } */
+
+  /* custom css */
+  .full-bleed {
+    box-shadow: 0 0 0 100vmax var(--color--bg);
+    clip-path: inset(0 -100vmax);
+  }
+  .inverse {
+    background: var(--color--bg);
+    /* color: white; */
   }
 
   .hero-grid {

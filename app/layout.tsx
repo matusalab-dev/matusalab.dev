@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 // import { Plus_Jakarta_Sans, Inter } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
-import Canvas from "./components/Canvas";
 import Footer from "./components/Footer";
+import Certifications from "./components/Certifications";
 
 // const plus_jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 const satoshi = localFont({
@@ -27,10 +27,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${satoshi.className} main-container`}>
-        {/* <Canvas /> */}
+      <body
+        className={`${satoshi.className} antialiased w-full max-w-[1400px] mx-auto my-0 px-7 md:px-12`}
+      >
         {children}
-        <Footer />
       </body>
     </html>
   );
