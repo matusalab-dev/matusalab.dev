@@ -37,8 +37,8 @@ const Certifications = () => {
       <h3 className=" text-3xl tracking-widest uppercase bg-white z-50">
         Certifications
       </h3>
-      {CERTIFICATIONS.map((certs) => (
-        <div className="mt-8 max-w-96">
+      {CERTIFICATIONS.map((certs, index) => (
+        <div key={++index} className="mt-8 max-w-96">
           <h4 className="capitalize text-black text-xl">{certs.course}</h4>
           <div className="mt-1 flex justify-between">
             <p>Taught by {certs.offeredBy}</p>

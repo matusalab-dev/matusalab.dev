@@ -1,6 +1,7 @@
 import Image from "next/image";
 import NavBar from "./NavBar";
 import { SocialIcons } from "./SocialIcons";
+import { motion } from "framer-motion";
 // import ReactIcons from "../../public/icons/ReactIcons";
 const Header = () => {
   return (
@@ -11,7 +12,10 @@ const Header = () => {
         {/* hero-section */}
         <section className="sm:max-w-2xl sm:mx-auto lg:max-w-full grid grid-cols-1 gap-x-24 lg:gap-x-36 sm:hero-grid sm:gap-x-16 mt-32 lg:mt-44 space-y-20 lg:space-y-0">
           <div className="sm:col-span-full lg:col-[3/-1] lg:row-[1/-1]">
-            <h1 className="text-[3.5rem] leading-none font-bold text-[--color--heading] md:flex md:flex-col md:justify-start md:gap-4 lg:gap-8 xs:text-[17.8vw] md:text-[14vw] lg:text-[10vw] sm:leading-[0.875] ">
+            <motion.h1
+              animate={{ x: 100 }}
+              className="text-[3.5rem] leading-none font-bold text-[--color--heading] md:flex md:flex-col md:justify-start md:gap-4 lg:gap-8 xs:text-[17.8vw] md:text-[14vw] lg:text-[10vw] sm:leading-[0.875] "
+            >
               <div className="relative md:flex md:items-start md:justify-start">
                 <span className="hidden xs:inline absolute left-1 -top-[0.12rem] xs:left-2 sm:left-3 sm:-top-3 font-normal text-[2.8vw] sm:text-[2.6vw] lg:text-[1.6vw] sm:font-normal tracking-widest">
                   React
@@ -23,7 +27,7 @@ const Header = () => {
               <div className=" md:flex md:items-end justify-start">
                 Developer
               </div>
-            </h1>
+            </motion.h1>
             <div className="flex flex-col xs:flex-row justify-between gap-6 mt-12">
               <p className="text-lg font-medium text-[--color--grey]  max-w-[37ch]">
                 for small to medium sized business owners who prioritize

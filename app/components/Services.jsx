@@ -38,7 +38,10 @@ const Services = () => {
 
       <div className="basis-9/12 grid gap-24 grid-cols-1 md:grid-cols-2">
         {SERVICES.map((service, index) => (
-          <div className="flex flex-col justify-between gap-12 xs:gap-20 border-l-[--color--grey] border-l-[0.5px]  pl-4 xs:pl-6">
+          <div
+            key={++index}
+            className="flex flex-col justify-between gap-12 xs:gap-20 border-l-[--color--grey] border-l-[0.5px]  pl-4 xs:pl-6"
+          >
             <div>
               <p className="text-[--color--grey]">0{++index}</p>
               <h3 className="text-3xl xs:text-4xl capitalize mt-2">

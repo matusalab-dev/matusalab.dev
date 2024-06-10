@@ -24,8 +24,8 @@ const NavBar = () => {
         data-main-navigation
         className="md:w-[25rem] flex flex-col gap-2 md:flex md:flex-row md:gap-8 md:items-center md:justify-center text-sm font-medium tracking-wide"
       >
-        {NAV_INFO.map((navInfo) => (
-          <li className={navInfo[1]}>
+        {NAV_INFO.map((navInfo, index) => (
+          <li key={++index} className={navInfo[1]}>
             <Link
               href={navInfo[2]}
               className="capitalize text-xl hover:tracking-wider transition-[letter-spacing] ease-out duration-100"

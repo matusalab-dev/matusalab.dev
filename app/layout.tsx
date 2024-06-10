@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
-// import { Plus_Jakarta_Sans, Inter } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
-import Footer from "./components/Footer";
-import Certifications from "./components/Certifications";
 
 // const plus_jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 const satoshi = localFont({
