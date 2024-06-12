@@ -3,7 +3,7 @@ import NavBar from "../components/nav/NavBar";
 import { NAV_INFO_FREELANCE, NAV_INFO_HOME } from "../constants/navbar";
 import Image from "next/image";
 
-const Projects = ({ backLink = "/#project" }) => {
+const Projects = ({ backLink = "/#project" }: { backLink: string }) => {
   return (
     <div className="inverse full-bleed h-screen">
       <NavBar navBar={NAV_INFO_HOME} navBarMobile={NAV_INFO_FREELANCE} />
