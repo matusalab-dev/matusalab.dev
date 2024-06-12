@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
-// const plus_jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 const satoshi = localFont({
   src: [
     { path: "./fonts/Satoshi-Regular.woff", weight: "400" },

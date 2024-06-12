@@ -81,7 +81,8 @@ main {
   .hero-grid {
     display: grid;
     grid-template-columns: min-content 2fr 3fr;
-    grid-template-rows: repeat(2, min-content);
+    grid-template-rows: repeat(2, max-content);
+    height: calc(100vh - 20%);
   }
 
   /* 
