@@ -17,7 +17,7 @@ const MobileNavBar = ({
       data-main-navigation
       className={`${
         !toggle ? "hidden" : "flex"
-      } h-screen w-full sm:w-[85%] absolute top-0 right-0 z-50 md:hidden flex-col items-start justify-between bg-black text-white px-8 py-10 sm:px-12`}
+      }  h-screen w-full sm:w-[85%] absolute top-0 right-0 z-50 md:hidden flex-col items-start justify-between bg-black text-white px-8 py-10 sm:px-12`}
     >
       {/* logo */}
       <div className="w-full flex justify-between">
