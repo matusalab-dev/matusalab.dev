@@ -6,6 +6,7 @@ export interface ProjectInfoType {
   className: string;
   [key: string]: any;
 }
+
 export const PROJECT_INFO: ProjectInfoType[] = [
   {
     title: "room",

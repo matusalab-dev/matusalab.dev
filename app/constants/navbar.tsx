@@ -27,17 +27,17 @@ export const NAV_INFO_FREELANCE: NavBarType[] = [
   {
     navTitle: "projects",
     widthStyle: "w-16",
-    scrollInto: ["#project", "./#project"],
+    scrollInto: ["#project", "../#project"],
   },
   {
     navTitle: "services",
     widthStyle: "w-16",
-    scrollInto: ["#services", "./#services"],
+    scrollInto: ["#services", "../#services"],
   },
   {
     navTitle: "about",
     widthStyle: "w-12",
-    scrollInto: ["#about", "./#about"],
+    scrollInto: ["#about", "../#about"],
   },
   //   {
   //     navTitle: "contact",

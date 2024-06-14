@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import Projects from "./components/Projects";
+import Projects from "./components/projects/Projects";
 // import Services from "./components/Services";
 import Certifications from "./components/Certifications";
 import { NAV_INFO_HOME } from "./constants/navbar";
@@ -18,7 +18,7 @@ export default function Home() {
         selectedTag={0}
       />
       {/* <Services /> */}
-      <Projects />
+      <Projects slug="./" />
       <Certifications />
       <Footer />
     </>

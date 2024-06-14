@@ -16,20 +16,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(freelancing)/freelancing/page.js"
     ],
-    "/projects/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/projects/page.js"
-    ],
-    "/(freelancing)/freelancing/projects/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(freelancing)/freelancing/projects/page.js"
-    ],
     "/projects/[slug]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/projects/[slug]/page.js"
+    ],
+    "/(freelancing)/freelancing/projects/[slug]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(freelancing)/freelancing/projects/[slug]/page.js"
     ]
   }
 }

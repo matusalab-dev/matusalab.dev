@@ -2,7 +2,7 @@ import { NAV_INFO_FREELANCE } from "@/app/constants/navbar";
 import Certifications from "../../components/Certifications";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import Projects from "../../components/Projects";
+import Projects from "../../components/projects/Projects";
 import Services from "../../components/Services";
 import { HEADER_COPYRIGHT } from "@/app/constants/header";
 
@@ -18,7 +18,7 @@ const Freelancing = () => {
         selectedHeadline={1}
       />
       <Services />
-      <Projects />
+      <Projects slug="freelancing" />
       <Certifications />
       <Footer availability="for freelance" />
     </div>
