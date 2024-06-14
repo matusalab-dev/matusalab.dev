@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { PROJECT_INFO } from "../constants/projects";
 
-const Projects = ({ projectRoute = "/projects" }) => {
+const Projects = () => {
   return (
     <main id="project" className="w-full">
       <div className="  text-black py-20">
@@ -24,7 +24,10 @@ const Projects = ({ projectRoute = "/projects" }) => {
                 alt={projectInfo.title}
                 className=" rounded-[0.1rem] md:transition-[border-radius] md:ease-in-out md:hover:rounded-3xl"
               />
-              <Link href={projectRoute} className="self-start">
+              <Link
+                href={`/projects/${projectInfo.title}`}
+                className="self-start"
+              >
                 <div className="flex flex-col gap-6 md:flex-row justify-between mt-6 text-[--color--grey] text-sm">
                   <div className="flex flex-col">
                     <p className="text-[1rem]">0{++index}</p>

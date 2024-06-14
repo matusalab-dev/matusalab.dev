@@ -24,7 +24,7 @@ export const PROJECT_INFO: ProjectInfoType[] = [
   {
     title: "loopstudios",
     imgSrc: "/projects-mockup/loopstudios-desktop-preview.jpg",
-    description: "Eye catching Landing page",
+    description: "Eye catching Marketing Landing page",
     type: "Landing page",
     className: "lg:col-[3/-1]",
   },

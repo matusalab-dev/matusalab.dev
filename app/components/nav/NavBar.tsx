@@ -8,9 +8,11 @@ import useToggle from "@/app/hooks/useToggle";
 const NavBar = ({
   navBar,
   navBarMobile,
+  routeIndex,
 }: {
   navBar: NavBarType[];
   navBarMobile: NavBarType[];
+  routeIndex: number;
 }) => {
   // const [toggle, setToggle] = useState<boolean>(false);
 
@@ -26,7 +28,7 @@ const NavBar = ({
       <Logo />
 
       {/* nav-bar */}
-    
+
       <ul
         data-main-navigation
         className="md:w-[25rem] hidden md:flex flex-col md:flex-row gap-2 md:gap-6 lg:gap-12 md:items-center md:justify-center text-sm font-medium tracking-wide"
@@ -36,7 +38,7 @@ const NavBar = ({
           return (
             <li key={++index} className={navInfo.widthStyle}>
               <Link
-                href={navInfo.scrollInto}
+                href={navInfo.scrollInto[routeIndex]}
                 className="capitalize text-lg font-medium hover:tracking-wider transition-[letter-spacing] ease-out duration-100"
               >
                 {navInfo.navTitle}
@@ -88,6 +90,7 @@ const NavBar = ({
           navBar={navBarMobile}
           toggle={isToggled}
           onToggle={handleIsToggled}
+          routeIndex={routeIndex}
         />
       )}
     </nav>

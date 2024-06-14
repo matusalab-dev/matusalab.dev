@@ -805,9 +805,6 @@ video {
 .self-start {
   align-self: flex-start;
 }
-.overflow-hidden {
-  overflow: hidden;
-}
 .text-pretty {
   text-wrap: pretty;
 }

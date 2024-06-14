@@ -6,7 +6,11 @@ import Image from "next/image";
 const Projects = ({ backLink = "/#project" }: { backLink: string }) => {
   return (
     <div className="inverse full-bleed h-screen">
-      <NavBar navBar={NAV_INFO_HOME} navBarMobile={NAV_INFO_FREELANCE} />
+      <NavBar
+        navBar={NAV_INFO_HOME}
+        navBarMobile={NAV_INFO_HOME}
+        routeIndex={1}
+      />
       <h1 className="flex justify-center flex-col w-max mr-auto md:mx-right text-center text-4xl md:text-7xl font-[900] mt-8 ">
         <Link
           href={backLink}

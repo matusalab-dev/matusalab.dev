@@ -6,10 +6,12 @@ const MobileNavBar = ({
   navBar,
   toggle,
   onToggle,
+  routeIndex,
 }: {
   toggle: boolean;
   onToggle?: () => void;
   navBar: NavBarType[];
+  routeIndex: number;
 }) => {
   return (
     <nav
@@ -37,7 +39,7 @@ const MobileNavBar = ({
           return (
             <li key={++index} className={navInfo.widthStyle} onClick={onToggle}>
               <Link
-                href={navInfo.scrollInto}
+                href={navInfo.scrollInto[routeIndex]}
                 className="hover:tracking-wider transition-[letter-spacing] ease-out duration-100"
               >
                 {navInfo.navTitle}
