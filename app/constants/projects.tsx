@@ -4,6 +4,7 @@ export interface ProjectInfoType {
   description: string;
   type: string;
   className: string;
+  liveUrl: string;
   [key: string]: any;
 }
 
@@ -14,6 +15,8 @@ export const PROJECT_INFO: ProjectInfoType[] = [
     description: " Furniture E-commerce store",
     type: "Custom Store-front Shopify as headless CMS",
     className: "lg:col-[1/5]",
+
+    liveUrl: "https://www.room-ecommerce.pages.dev",
   },
   {
     title: "little-lemon",
@@ -21,6 +24,7 @@ export const PROJECT_INFO: ProjectInfoType[] = [
     description: "restaurant table reservation",
     type: "web app",
     className: "md:col-[1/-1] lg:col-[5/-1]",
+    liveUrl: "https://www.room-ecommerce.pages.dev",
   },
   {
     title: "loopstudios",
@@ -28,6 +32,7 @@ export const PROJECT_INFO: ProjectInfoType[] = [
     description: "Eye catching Marketing Landing page",
     type: "Landing page",
     className: "lg:col-[3/-1]",
+    liveUrl: "https://www.room-ecommerce.pages.dev",
   },
   {
     title: "sunnyside",
@@ -35,6 +40,7 @@ export const PROJECT_INFO: ProjectInfoType[] = [
     description: "high converting landing page",
     type: "landing page",
     className: "lg:col-[1/5]",
+    liveUrl: "https://www.room-ecommerce.pages.dev",
   },
 
   // {
@@ -43,5 +49,6 @@ export const PROJECT_INFO: ProjectInfoType[] = [
   //   description: "Headless Commerce Setup",
   //   type: "Custom Store-front Shopify as headless CMS",
   //   className: "w-full lg:col-[5/-1]",
+  // liveUrl:'https://www.room-ecommerce.pages.dev'
   // },
 ];

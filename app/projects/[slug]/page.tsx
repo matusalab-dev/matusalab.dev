@@ -36,11 +36,11 @@ const Projects = ({ backLink = "../#project", params }: PageProps) => {
           Back to all projects
         </Link>
         <div className="flex justify-between items-center">
-          <h1 className="capitalize text-5xl font-black">{slug}</h1>
+          <h1 className="capitalize text-3xl sm:text-5xl font-black">{slug}</h1>
           <Link
             href="www.room-ecommerce.pages.dev"
             target="_blank"
-            className="text-[1rem] text-white w-24 h-24 flex justify-center items-center gap-2 rounded-full bg-black"
+            className="text-[1rem] text-white w-24 h-24 sm:w-28 sm:h-28 sm:text-lg flex justify-center items-center gap-2 rounded-full bg-black"
           >
             Live site
             <ArrowVector color="white" width="12" height="12" />

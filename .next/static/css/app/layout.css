@@ -1351,6 +1351,10 @@ main {
     height: max-content;
   }
 
+  .sm\:h-28 {
+    height: 7rem;
+  }
+
   .sm\:w-16 {
     width: 4rem;
   }
@@ -1369,6 +1373,10 @@ main {
 
   .sm\:w-\[85\%\] {
     width: 85%;
+  }
+
+  .sm\:w-28 {
+    width: 7rem;
   }
 
   .sm\:max-w-2xl {
@@ -1440,6 +1448,16 @@ main {
 
   .sm\:text-\[7\.5rem\] {
     font-size: 7.5rem;
+  }
+
+  .sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .sm\:font-normal {
