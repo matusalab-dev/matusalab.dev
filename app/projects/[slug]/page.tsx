@@ -3,15 +3,16 @@ import Image from "next/image";
 import NavBar from "@/app/components/nav/NavBar";
 import { NAV_INFO_HOME } from "@/app/constants/navbar";
 import { ArrowVector } from "@/public/icons/ArrowVector";
+import { FC } from "react";
 
 interface PageProps {
-  backLink: string;
+  backLink?: string;
   params: {
     slug: string;
   };
 }
 
-const Projects = ({ backLink = "../#project", params }: PageProps) => {
+const Projects: FC<PageProps> = ({ backLink = "../#project", params }) => {
   const { slug } = params;
 
   return (
