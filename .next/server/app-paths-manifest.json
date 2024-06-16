@@ -1,6 +1,8 @@
 {
-  "/page": "app/page.js",
-  "/projects/[slug]/page": "app/projects/[slug]/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/(freelancing)/freelancing/page": "app/(freelancing)/freelancing/page.js",
-  "/(freelancing)/freelancing/projects/[slug]/page": "app/(freelancing)/freelancing/projects/[slug]/page.js"
+  "/(freelancing)/freelancing/projects/[slug]/page": "app/(freelancing)/freelancing/projects/[slug]/page.js",
+  "/icon.ico/route": "app/icon.ico/route.js",
+  "/page": "app/page.js",
+  "/projects/[slug]/page": "app/projects/[slug]/page.js"
 }

@@ -3,26 +3,21 @@ import Image from "next/image";
 import NavBar from "@/app/components/nav/NavBar";
 import { NAV_INFO_FREELANCE } from "@/app/constants/navbar";
 import { ArrowVector } from "@/public/icons/ArrowVector";
-import { Url } from "url";
 import Footer from "@/app/components/Footer";
+import { FC } from "react";
 
-// interface PageProps {
-//   backLink?: Url | "../#project";
-//   params: {
-//     slug: string;
-//   };
-// }
-
-const Projects = ({
-  backLink = "../#project",
-  params,
-}: {
-  backLink?: string;
+interface PageProps {
   params: {
     slug: string;
   };
-}) => {
+  searchParams?: {
+    backLink?: string;
+  };
+}
+
+const Projects: FC<PageProps> = ({ params, searchParams }) => {
   const { slug } = params;
+  const backLink = searchParams?.backLink || "../#project";
 
   return (
     <>

@@ -1,30 +1,51 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+    "/_not-found/page": [
+      "static/chunks/webpack-285dab7cbc17340d.js",
+      "static/chunks/fd9d1056-be48aeae6e94b8d1.js",
+      "static/chunks/23-60fece4b50a68a94.js",
+      "static/chunks/main-app-a5b8862f62c5419b.js",
+      "static/chunks/app/_not-found/page-846bc14f8cdb3714.js"
     ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
-    ],
-    "/projects/[slug]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/projects/[slug]/page.js"
+      "static/chunks/webpack-285dab7cbc17340d.js",
+      "static/chunks/fd9d1056-be48aeae6e94b8d1.js",
+      "static/chunks/23-60fece4b50a68a94.js",
+      "static/chunks/main-app-a5b8862f62c5419b.js",
+      "static/css/71e136b1d74f3d3c.css",
+      "static/chunks/app/layout-352de5de3c12a985.js"
     ],
     "/(freelancing)/freelancing/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(freelancing)/freelancing/page.js"
+      "static/chunks/webpack-285dab7cbc17340d.js",
+      "static/chunks/fd9d1056-be48aeae6e94b8d1.js",
+      "static/chunks/23-60fece4b50a68a94.js",
+      "static/chunks/main-app-a5b8862f62c5419b.js",
+      "static/chunks/540-808bae284eadb709.js",
+      "static/chunks/app/(freelancing)/freelancing/page-0d507399013541d6.js"
     ],
     "/(freelancing)/freelancing/projects/[slug]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(freelancing)/freelancing/projects/[slug]/page.js"
+      "static/chunks/webpack-285dab7cbc17340d.js",
+      "static/chunks/fd9d1056-be48aeae6e94b8d1.js",
+      "static/chunks/23-60fece4b50a68a94.js",
+      "static/chunks/main-app-a5b8862f62c5419b.js",
+      "static/chunks/540-808bae284eadb709.js",
+      "static/chunks/app/(freelancing)/freelancing/projects/[slug]/page-47d8a766c4bde3b4.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-285dab7cbc17340d.js",
+      "static/chunks/fd9d1056-be48aeae6e94b8d1.js",
+      "static/chunks/23-60fece4b50a68a94.js",
+      "static/chunks/main-app-a5b8862f62c5419b.js",
+      "static/chunks/540-808bae284eadb709.js",
+      "static/chunks/app/page-d334ea92d6e0fdad.js"
+    ],
+    "/projects/[slug]/page": [
+      "static/chunks/webpack-285dab7cbc17340d.js",
+      "static/chunks/fd9d1056-be48aeae6e94b8d1.js",
+      "static/chunks/23-60fece4b50a68a94.js",
+      "static/chunks/main-app-a5b8862f62c5419b.js",
+      "static/chunks/540-808bae284eadb709.js",
+      "static/chunks/app/projects/[slug]/page-d7196043ad4ab902.js"
     ]
   }
 }
