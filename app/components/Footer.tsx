@@ -2,7 +2,7 @@ import Link from "next/link";
 import Logo from "./Logo";
 import { SocialIcons } from "./SocialIcons";
 
-const Footer = ({ availability = " to work" }: { availability?: string }) => {
+const Footer = ({ availability = "to work" }: { availability?: string }) => {
   return (
     <footer id="footer" className="pt-40 pb-4">
       <div className="flex flex-col items-center gap-10">

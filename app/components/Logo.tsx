@@ -1,16 +1,18 @@
 import Link from "next/link";
 
 const Logo = ({
+  logoLink = "/",
   styleSuffix,
   onToggle,
 }: {
+  logoLink?: string;
   styleSuffix?: string;
   onToggle?: () => void;
 }) => {
   return (
     <Link
       onClick={onToggle}
-      href="/"
+      href={logoLink}
       className="flex flex-col w-min capitalize leading-7 sm:leading-7 text-2xl sm:text-3xl font-medium"
     >
       <span className="tracking-wider">Matu </span>

@@ -9,14 +9,13 @@ const NavBar = ({
   navBar,
   navBarMobile,
   routeIndex,
+  logoLink,
 }: {
   navBar: NavBarType[];
   navBarMobile: NavBarType[];
   routeIndex: number;
+  logoLink?: string;
 }) => {
-  // const [toggle, setToggle] = useState<boolean>(false);
-
-  // const handleToggle = () => setToggle(!toggle);
   const { isToggled, handleIsToggled } = useToggle();
 
   return (
@@ -25,7 +24,7 @@ const NavBar = ({
       className="flex justify-between items-center pt-6"
     >
       {/* logo */}
-      <Logo />
+      <Logo logoLink={logoLink} />
 
       {/* nav-bar */}
 

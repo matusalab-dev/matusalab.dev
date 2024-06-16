@@ -3,52 +3,93 @@ import Image from "next/image";
 import NavBar from "@/app/components/nav/NavBar";
 import { NAV_INFO_FREELANCE } from "@/app/constants/navbar";
 import { ArrowVector } from "@/public/icons/ArrowVector";
-import { FC } from "react";
+import { Url } from "url";
+import Footer from "@/app/components/Footer";
 
-interface PageProps {
+// interface PageProps {
+//   backLink?: Url | "../#project";
+//   params: {
+//     slug: string;
+//   };
+// }
+
+const Projects = ({
+  backLink = "../#project",
+  params,
+}: {
   backLink?: string;
   params: {
     slug: string;
   };
-}
-
-const Projects: FC<PageProps> = ({ backLink = "../#project", params }) => {
+}) => {
   const { slug } = params;
 
   return (
-    <section className="inverse full-bleed h-screen">
-      <NavBar
-        navBar={NAV_INFO_FREELANCE}
-        navBarMobile={NAV_INFO_FREELANCE}
-        routeIndex={1}
-      />
-      <div className="flex justify-center flex-col text-4xl md:text-7xl font-thin mt-8">
-        <Link
-          href={backLink}
-          className="text-sm  text-center self-start flex items-center gap-2 mt-2 mb-8 md:mt-6"
-        >
-          <Image
-            src="/projects-mockup/arrow-vector.svg"
-            alt="go to more details"
-            width="12"
-            height="10"
-            className="sm:w-6 sm:h-3 -rotate-[135deg]"
-          />
-          Back to all projects
-        </Link>
-        <div className="flex justify-between items-center">
-          <h1 className="capitalize text-5xl font-black">{slug}</h1>
+    <>
+      <section className="inverse full-bleed pb-12">
+        <NavBar
+          navBar={NAV_INFO_FREELANCE}
+          navBarMobile={NAV_INFO_FREELANCE}
+          routeIndex={1}
+          logoLink="/freelancing"
+        />
+        <div className="flex justify-center flex-col text-4xl md:text-7xl font-thin mt-12 space-y-10">
           <Link
-            href="www.room-ecommerce.pages.dev"
-            target="_blank"
-            className="text-lg text-white w-24 h-24 flex justify-center items-center gap-2 rounded-full bg-black"
+            href={backLink}
+            className="text-sm  text-center self-start flex items-center gap-2 space-y-6 md:space-y-8"
           >
-            Live site
-            <ArrowVector color="white" width="12" height="12" />
+            <Image
+              src="/projects-mockup/arrow-vector.svg"
+              alt="go to more details"
+              width="12"
+              height="10"
+              className="sm:w-6 sm:h-3 -rotate-[135deg]"
+            />
+            Back to all projects
           </Link>
+          <div className="flex flex-row justify-between items-center gap-5 sm:items-center">
+            <h1 className="capitalize font-medium text-4xl xs:text-5xl sm:font-extrabold">
+              {slug}
+            </h1>
+            <Link
+              href="www.room-ecommerce.pages.dev"
+              target="_blank"
+              title="live site"
+              className="text-[1rem] text-white w-10 h-10 xs:w-[5.75rem] xs:h-[5.75rem] sm:w-24 sm:h-24 flex justify-center items-center gap-2 rounded-full bg-black"
+            >
+              <span className="hidden xs:inline">Live site</span>
+              <ArrowVector color="white" width="12" height="12" />
+            </Link>
+          </div>
+          <div className="flex flex-col space-y-4">
+            <h2 className="capitalize text-3xl sm:text-4xl">Overview</h2>
+            <p className=" max-w-[45ch] text-lg ">
+              The primary goal of this project is to develop a compelling and
+              visually appealing digital presence, modern, user-friendly and
+              responsive website that effectively showcase.
+            </p>
+          </div>
+          <div className="flex flex-col gap-5">
+            <h3>Tech-stacks</h3>
+            <div className="flex gap-2">
+              <p className="bg-black text-white self-start text-xl px-2 py-0">
+                React
+              </p>
+              <p className="bg-black text-white self-start text-xl px-2 py-0">
+                Formik
+              </p>
+              <p className="bg-black text-white self-start text-xl px-2 py-0">
+                React-router
+              </p>
+              <p className="bg-black text-white self-start text-xl px-2 py-0">
+                React
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <Footer availability="to freelance" />
+    </>
   );
 };
 

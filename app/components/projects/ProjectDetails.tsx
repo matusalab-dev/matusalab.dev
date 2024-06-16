@@ -5,7 +5,7 @@ import NavBar from "@/app/components/nav/NavBar";
 import { NAV_INFO_HOME } from "@/app/constants/navbar";
 
 interface PageProps {
-  backLink: string;
+  backLink?: string;
   params: {
     slug: string;
   };

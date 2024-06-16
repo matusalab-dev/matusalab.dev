@@ -16,6 +16,7 @@ export default function Home() {
         navBarRoute={0}
         selectedHeadline={0}
         selectedTag={0}
+        logoLink="/"
       />
       {/* <Services /> */}
       <Projects slug="./" />

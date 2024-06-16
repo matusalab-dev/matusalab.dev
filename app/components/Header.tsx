@@ -11,6 +11,7 @@ const Header = ({
   navBarRoute,
   selectedTag,
   selectedHeadline,
+  logoLink,
 }: {
   headerNavBar: NavBarType[];
   headerNavBarMobile: NavBarType[];
@@ -18,6 +19,7 @@ const Header = ({
   navBarRoute: number;
   selectedTag: number;
   selectedHeadline: number;
+  logoLink: string;
 }) => {
   return (
     <header id="header" className="pb-24 bg-[--color--bg] inverse full-bleed">
@@ -26,6 +28,7 @@ const Header = ({
         navBar={headerNavBar}
         navBarMobile={headerNavBarMobile}
         routeIndex={navBarRoute}
+        logoLink={logoLink}
       />
       {/* hero-section */}
       <section className="sm:max-w-2xl sm:mx-auto lg:max-w-full grid grid-cols-1 gap-x-24 lg:gap-x-36 sm:hero-grid sm:gap-x-16 mt-32 lg:mt-44 space-y-20 lg:space-y-0">

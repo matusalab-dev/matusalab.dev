@@ -13,9 +13,10 @@ const Freelancing = () => {
         headerNavBar={NAV_INFO_FREELANCE}
         headerNavBarMobile={NAV_INFO_FREELANCE}
         headerCopyright={HEADER_COPYRIGHT[1]}
-        navBarRoute={1}
+        navBarRoute={0}
         selectedTag={1}
         selectedHeadline={1}
+        logoLink="/freelancing"
       />
       <Services />
       <Projects slug="freelancing" />
