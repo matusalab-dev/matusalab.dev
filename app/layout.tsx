@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 const satoshi = localFont({
   src: [
@@ -27,6 +28,7 @@ export default function RootLayout({
         className={`${satoshi.className} antialiased w-full max-w-[87.5rem] mx-auto px-7 md:px-12`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
