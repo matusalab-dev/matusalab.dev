@@ -2,7 +2,13 @@ import Link from "next/link";
 import Logo from "./Logo";
 import { SocialIcons } from "./SocialIcons";
 
-const Footer = ({ availability = "to work" }: { availability?: string }) => {
+const Footer = ({
+  availability = "to work",
+  logoLink,
+}: {
+  availability?: string;
+  logoLink: string;
+}) => {
   return (
     <footer id="footer" className="pt-40 pb-4">
       <div className="flex flex-col items-center gap-10">
@@ -12,7 +18,7 @@ const Footer = ({ availability = "to work" }: { availability?: string }) => {
 
         <Link
           href="mailto:www.mtslabrh97@gmail.com"
-          className="w-[12.75rem] text-[--color--black] text-2xl font-medium antialiased relative flex flex-col justify-center items-center after:content-[''] after:w-[10.5rem] hover:after:mx-auto hover:after:w-[11rem] after:transition-[width] after:h-[0.09rem] after:bg-[--color--heading] after:block after:absolute after:top-9 tracking-wide hover:tracking-wider transition-[letter-spacing] ease-out duration-100"
+          className=" text-[--color--black] text-2xl font-medium antialiased relative flex flex-col justify-center items-center after:content-[''] after:w-[10.5rem] hover:after:mx-auto hover:after:w-[11rem] after:transition-[width] after:h-[0.09rem] after:bg-[--color--heading] after:block after:absolute after:top-9 tracking-wide hover:tracking-wider transition-[letter-spacing] ease-out duration-100"
         >
           <div className="flex">
             Get in touch
@@ -47,7 +53,7 @@ const Footer = ({ availability = "to work" }: { availability?: string }) => {
             </Link>
           </div>
         </div>
-        <Logo />
+        <Logo logoLink={logoLink} />
         <div className="h-16 sm:h-24 flex flex-col items-end justify-between">
           <SocialIcons styleIcons="xs:flex-row flex xs:justify-between" />
           <p className="self-start sm:self-end">

@@ -13,7 +13,7 @@ export const PROJECT_INFO: ProjectInfoType[] = [
     title: "room",
     imgSrc: "/projects-mockup/room-desktop-preview.jpg",
     description: " Furniture E-commerce store",
-    type: "Custom Store-front Shopify as headless CMS",
+    type: "custom store-front shopify as headless CMS",
     className: "lg:col-[1/5]",
 
     liveUrl: "https://www.room-ecommerce.pages.dev",
@@ -29,8 +29,8 @@ export const PROJECT_INFO: ProjectInfoType[] = [
   {
     title: "loopstudios",
     imgSrc: "/projects-mockup/loopstudios-desktop-preview.jpg",
-    description: "Eye catching Marketing Landing page",
-    type: "Landing page",
+    description: "eye catching marketing landing page",
+    type: "landing page",
     className: "lg:col-[3/-1]",
     liveUrl: "https://www.room-ecommerce.pages.dev",
   },

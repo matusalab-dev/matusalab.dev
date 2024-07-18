@@ -5,7 +5,7 @@ import { PROJECT_INFO } from "../../constants/projects";
 const Projects = ({ slug = "/" }: { slug: string }) => {
   return (
     <main id="project" className="w-full">
-      <div className="  text-black py-20">
+      <div className="text-black py-20">
         <h2 className="text-[3.7rem] font-medium leading-tight xs:text-[6.8rem] sm:text-[7.5rem]">
           Projects
           <span className="text-lg ml-2 font-medium">
@@ -30,15 +30,15 @@ const Projects = ({ slug = "/" }: { slug: string }) => {
               >
                 <div className="flex flex-col gap-6 md:flex-row justify-between mt-6 text-[--color--grey] text-sm">
                   <div className="flex flex-col">
-                    <p className="text-[1rem]">0{++index}</p>
-                    <h2 className="my-4 text-3xl font-medium capitalize [letter-spacing:2px] text-black">
+                    <p className="text-sm sm:text-[1rem]">0{++index}</p>
+                    <h2 className="my-2 sm:my-4 text-2xl sm:text-3xl font-medium capitalize [letter-spacing:2px] text-black">
                       {projectInfo.title}
                     </h2>
-                    <h3 className="text-xs uppercase font-light [letter-spacing:2.7px]">
+                    <h3 className="text-xs sm:text-sm uppercase font-light [letter-spacing:2.7px]">
                       {projectInfo.type}
                       {/* Headless Commerce Setup */}
                     </h3>
-                    <h4 className="text-sm tracking-wider text-[--color--grey] leading-snug mt-[0.2rem] text-pretty font-thin">
+                    <h4 className="text-xs sm:text-sm tracking-wider text-[--color--grey] capitalize leading-snug mt-[0.2rem] text-pretty font-thin">
                       {projectInfo.description}
                     </h4>
                   </div>
@@ -47,7 +47,7 @@ const Projects = ({ slug = "/" }: { slug: string }) => {
                     alt="go to more details"
                     width="20"
                     height="20"
-                    className="w-3 h-3 sm:w-4 sm:h-4  self-start "
+                    className="w-3 h-6 sm:w-4 sm:h-7  self-start "
                   />
                 </div>
               </Link>

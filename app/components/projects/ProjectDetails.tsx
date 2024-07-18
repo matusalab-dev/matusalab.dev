@@ -14,11 +14,12 @@ interface PageProps {
 const ProjectDetails: FC<PageProps> = ({ backLink = "./#project", params }) => {
   const { slug } = params;
   return (
-    <div className="inverse full-bleed h-screen">
+    <div className="inverse full-bleed">
       <NavBar
         navBar={NAV_INFO_HOME}
         navBarMobile={NAV_INFO_HOME}
         routeIndex={1}
+        logoLink="/"
       />
       <h1 className="flex justify-center flex-col w-max mr-auto md:mx-right text-center text-4xl md:text-7xl font-[900] mt-8 ">
         <Link

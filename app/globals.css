@@ -71,11 +71,23 @@ main {
   /* custom css */
   .full-bleed {
     box-shadow: 0 0 0 100vmax var(--color--bg);
-    clip-path: inset(0 -100vmax);
+    clip-path: inset(0-100vmax);
   }
   .inverse {
     background: var(--color--bg);
     /* color: white; */
+  }
+
+  .full-bleed-background {
+    /* background-color: var(--color--bg); */
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1; /* Ensure the background is behind other content */
   }
 
   .hero-grid {

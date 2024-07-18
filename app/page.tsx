@@ -19,9 +19,9 @@ export default function Home() {
         logoLink="/"
       />
       {/* <Services /> */}
-      <Projects slug="./" />
+      <Projects slug="." />
       <Certifications />
-      <Footer />
+      <Footer logoLink="/" />
     </>
   );
 }

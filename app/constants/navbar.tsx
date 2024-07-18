@@ -17,7 +17,7 @@ export const NAV_INFO_HOME: NavBarType[] = [
     widthStyle: "w-12",
     scrollInto: ["#about", "./#about"],
 
-    logoLink: "./freelancing",
+    // logoLink: "./freelancing",
   },
   //   {
   //     navTitle: "contact",

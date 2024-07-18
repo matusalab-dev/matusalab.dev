@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${satoshi.className} antialiased w-full max-w-[1400px] mx-auto my-0 px-7 md:px-12`}
+        className={`${satoshi.className} antialiased w-full max-w-[87.5rem] mx-auto px-7 md:px-12`}
       >
         {children}
       </body>

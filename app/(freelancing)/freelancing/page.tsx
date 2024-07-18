@@ -8,7 +8,7 @@ import { HEADER_COPYRIGHT } from "@/app/constants/header";
 
 const Freelancing = () => {
   return (
-    <div>
+    <>
       <Header
         headerNavBar={NAV_INFO_FREELANCE}
         headerNavBarMobile={NAV_INFO_FREELANCE}
@@ -21,8 +21,8 @@ const Freelancing = () => {
       <Services />
       <Projects slug="freelancing" />
       <Certifications />
-      <Footer availability="for freelance" />
-    </div>
+      <Footer availability="for freelance" logoLink="/freelancing" />
+    </>
   );
 };
 

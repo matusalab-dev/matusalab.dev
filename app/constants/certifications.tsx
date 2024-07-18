@@ -18,13 +18,25 @@ export const CERTIFICATIONS = [
     endDate: "current",
   },
   {
+    course: "programming with Javascript",
+    offeredBy: "Meta",
+    startDate: "2023",
+    endDate: "current",
+  },
+  {
+    course: "react basics",
+    offeredBy: "Meta",
+    startDate: "2023",
+    endDate: "current",
+  },
+  {
     course: "react advanced",
     offeredBy: "Meta",
     startDate: "2023",
     endDate: "current",
   },
   {
-    course: "Javascript",
+    course: "front-end capstone project",
     offeredBy: "Meta",
     startDate: "2023",
     endDate: "current",

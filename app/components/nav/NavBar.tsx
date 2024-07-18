@@ -14,7 +14,7 @@ const NavBar = ({
   navBar: NavBarType[];
   navBarMobile: NavBarType[];
   routeIndex: number;
-  logoLink?: string;
+  logoLink: string;
 }) => {
   const { isToggled, handleIsToggled } = useToggle();
 
@@ -27,13 +27,11 @@ const NavBar = ({
       <Logo logoLink={logoLink} />
 
       {/* nav-bar */}
-
       <ul
         data-main-navigation
         className="md:w-[25rem] hidden md:flex flex-col md:flex-row gap-2 md:gap-6 lg:gap-12 md:items-center md:justify-center text-sm font-medium tracking-wide"
       >
         {navBar.map((navInfo, index: number) => {
-          // console.log(navInfo);
           return (
             <li key={++index} className={navInfo.widthStyle}>
               <Link
@@ -90,6 +88,7 @@ const NavBar = ({
           toggle={isToggled}
           onToggle={handleIsToggled}
           routeIndex={routeIndex}
+          logoLink={logoLink}
         />
       )}
     </nav>

@@ -7,11 +7,13 @@ const MobileNavBar = ({
   toggle,
   onToggle,
   routeIndex,
+  logoLink,
 }: {
   toggle: boolean;
   onToggle?: () => void;
   navBar: NavBarType[];
   routeIndex: number;
+  logoLink: string;
 }) => {
   return (
     <nav
@@ -19,11 +21,15 @@ const MobileNavBar = ({
       data-main-navigation
       className={`${
         !toggle ? "hidden" : "flex"
-      }  h-screen w-full sm:w-[85%] absolute top-0 right-0 z-50 md:hidden flex-col items-start justify-between bg-black text-white px-8 py-10 sm:px-12`}
+      } z-50 w-full min-h-screen sm:w-[85%] absolute top-0 right-0 md:hidden flex-col items-start justify-between bg-black text-white px-8 py-10`}
     >
       {/* logo */}
       <div className="w-full flex justify-between">
-        <Logo onToggle={onToggle} styleSuffix="bg-white text-black" />
+        <Logo
+          logoLink={logoLink}
+          onToggle={onToggle}
+          styleSuffix="bg-white text-black"
+        />
         {/* nav-list */}
         <button
           onClick={onToggle}

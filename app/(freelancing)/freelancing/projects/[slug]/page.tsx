@@ -56,7 +56,7 @@ const Projects: FC<PageProps> = ({ params, searchParams }) => {
               <ArrowVector color="white" width="12" height="12" />
             </Link>
           </div>
-          <div className="flex flex-col space-y-4">
+          <div className="flex flex-col space-y-3">
             <h2 className="capitalize text-3xl sm:text-4xl">Overview</h2>
             <p className=" max-w-[45ch] text-lg ">
               The primary goal of this project is to develop a compelling and
@@ -64,26 +64,19 @@ const Projects: FC<PageProps> = ({ params, searchParams }) => {
               responsive website that effectively showcase.
             </p>
           </div>
-          <div className="flex flex-col gap-5">
-            <h3>Tech-stacks</h3>
-            <div className="flex gap-2">
-              <p className="bg-black text-white self-start text-xl px-2 py-0">
-                React
-              </p>
-              <p className="bg-black text-white self-start text-xl px-2 py-0">
-                Formik
-              </p>
-              <p className="bg-black text-white self-start text-xl px-2 py-0">
+          <div className="flex flex-col space-y-3">
+            <h3 className="capitalize text-3xl sm:text-4xl">Tech-stacks</h3>
+            <ul className="flex gap-2 flex-wrap text-white text-[1rem]">
+              <li className="bg-black px-2 h-6 flex items-center">React</li>
+              <li className="bg-black px-2 h-6 flex items-center">Formik</li>
+              <li className="bg-black px-2 h-6 flex items-center">
                 React-router
-              </p>
-              <p className="bg-black text-white self-start text-xl px-2 py-0">
-                React
-              </p>
-            </div>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
-      <Footer availability="to freelance" />
+      <Footer availability="to freelance" logoLink="/freelancing" />
     </>
   );
 };

@@ -17,7 +17,7 @@ const SERVICES = [
   {
     heading: "Store setup",
     description:
-      "Crafting distinct brand identities and guidelines for lasting recognition in competitive markets",
+      "Setting up distinct brand identities and guidelines for lasting recognition in competitive markets",
   },
   //   {
   //     heading: "Managing store",
