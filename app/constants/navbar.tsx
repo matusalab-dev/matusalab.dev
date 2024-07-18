@@ -10,7 +10,7 @@ export const NAV_INFO_HOME: NavBarType[] = [
   {
     navTitle: "projects",
     widthStyle: "w-16",
-    scrollInto: ["#project", "./#project"],
+    scrollInto: ["#project", "../#project"],
   },
   {
     navTitle: "about",
