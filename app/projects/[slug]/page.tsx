@@ -37,8 +37,8 @@ const Projects: FC<PageProps> = ({ params, searchParams }) => {
           className="text-sm  text-center self-start flex items-center gap-2 space-y-6 md:space-y-8"
         >
           <Image
-            src="/projects-mockup/arrow-vector.svg"
-            alt="go to more details"
+            src="/mockup/arrow-vector.svg"
+            alt="go back to all projects"
             width="12"
             height="10"
             className="sm:w-6 sm:h-3 -rotate-[135deg]"

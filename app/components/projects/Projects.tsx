@@ -43,7 +43,7 @@ const Projects = ({ slug = "/" }: { slug: string }) => {
                     </h4>
                   </div>
                   <Image
-                    src="/projects-mockup/arrow-vector.svg"
+                    src="/mockup/arrow-vector.svg"
                     alt="go to more details"
                     width="20"
                     height="20"

@@ -27,7 +27,7 @@ const ProjectDetails: FC<PageProps> = ({ backLink = "./#project", params }) => {
           className="text-sm font-thin text-center self-start flex items-center gap-2 mt-2 mb-8 md:mt-6"
         >
           <Image
-            src="/projects-mockup/arrow-vector.svg"
+            src="/mockup/arrow-vector.svg"
             alt="go to more details"
             width="12"
             height="10"
