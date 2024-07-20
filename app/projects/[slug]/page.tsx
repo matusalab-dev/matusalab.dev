@@ -52,7 +52,7 @@ const Projects: FC<PageProps> = ({ params, searchParams }) => {
               {slug}
             </h1>
             <a
-              href="www.room-ecommerce.pages.dev"
+              href="https://room-store-two.vercel.app/"
               target="_blank"
               // onClick={goToPortfolio}
               title="live site"
