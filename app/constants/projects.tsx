@@ -16,7 +16,7 @@ export const PROJECT_INFO: ProjectInfoType[] = [
     type: "custom store-front shopify as headless CMS",
     className: "lg:col-[1/5]",
 
-    liveUrl: "https://www.room-ecommerce.pages.dev",
+    liveUrl: "https://room-store-two.vercel.app/",
   },
   {
     title: "little-lemon",
