@@ -77,19 +77,17 @@ const Projects: FC<PageProps> = ({ params, searchParams }) => {
                     <h3 className="capitalize text-2xl sm:text-4xl">
                       Tech-stacks
                     </h3>
-                    <ul className="flex gap-2 flex-wrap text-white text-[1rem]">
-                      {project.techStacks.map((techStack: string) => (
-                        <li className="bg-black px-2 h-6 flex items-center">
-                          {techStack}
-                        </li>
-                      ))}
-
-                      {/* <li className="bg-black px-2 h-6 flex items-center">
-                        Formik
-                      </li>
-                      <li className="bg-black px-2 h-6 flex items-center">
-                        React-router
-                      </li> */}
+                    <ul className="flex gap-2 flex-wrap text-white text-[1rem] max-w-3xl">
+                      {project.techStacks.map(
+                        (techStack: string, index: number) => (
+                          <li
+                            key={++index}
+                            className="bg-black px-2 h-6 flex items-center uppercase"
+                          >
+                            {techStack}
+                          </li>
+                        )
+                      )}
                     </ul>
                   </div>
                 </>
