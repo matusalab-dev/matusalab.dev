@@ -48,10 +48,10 @@ const Projects: FC<PageProps> = ({ params, searchParams }) => {
             />
             Back to all projects
           </Link>
-          {PROJECT_INFO.map((project) => {
+          {PROJECT_INFO.map((project, index) => {
             if (project.title === slug) {
               return (
-                <>
+                <div key={++index} className="space-y-12">
                   <div className="flex flex-row justify-between items-center gap-5 sm:items-center">
                     <h1 className="capitalize font-medium text-4xl xs:text-5xl sm:font-extrabold">
                       {slug}
@@ -82,7 +82,7 @@ const Projects: FC<PageProps> = ({ params, searchParams }) => {
                         (techStack: string, index: number) => (
                           <li
                             key={++index}
-                            className="bg-black px-2 h-6 flex items-center uppercase"
+                            className="bg-black px-2 h-6 flex items-center capitalize"
                           >
                             {techStack}
                           </li>
@@ -90,7 +90,7 @@ const Projects: FC<PageProps> = ({ params, searchParams }) => {
                       )}
                     </ul>
                   </div>
-                </>
+                </div>
               );
             }
           })}

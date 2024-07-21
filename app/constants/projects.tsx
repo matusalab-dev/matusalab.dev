@@ -5,6 +5,7 @@ export interface ProjectInfoType {
   type: string;
   className: string;
   liveUrl: string;
+  overview: string;
   [key: string]: any;
 }
 

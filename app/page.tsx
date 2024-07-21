@@ -20,7 +20,7 @@ export default function Home() {
       />
       {/* <Services /> */}
       <Projects slug="." />
-      <Certifications />
+      {/* <Certifications /> */}
       <Footer logoLink="/" />
     </>
   );
