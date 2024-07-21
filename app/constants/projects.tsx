@@ -19,7 +19,7 @@ export const PROJECT_INFO: ProjectInfoType[] = [
 
     liveUrl: "https://room-store-two.vercel.app/",
     overview:
-      "The room Project is an e-commerce platform designed to streamline furniture sales, providing a user-friendly interface for browsing and purchasing furniture. It was created to address the challenge of managing diverse product categories and enhancing the online shopping experience for wholesalers with multiple sales branches within the country with features like Product category section hover add-to-cart, detailed product pages, and easy checkout.",
+      "The Room project is an e-commerce platform designed to streamline furniture sales, providing a user-friendly interface for browsing and purchasing furniture. It was created to address the challenge of managing diverse product categories and enhancing the online shopping experience for wholesalers with multiple sales branches within the country with features like shopping product by category, hover add-to-cart, detailed product pages, and easy checkout.",
     techStacks: [
       "React",
       "React-Context-Api",
@@ -56,10 +56,10 @@ export const PROJECT_INFO: ProjectInfoType[] = [
     techStacks: [
       "HTML 5",
       "CSS 3",
-      "CSS GRID Layout",
+      "CSS Grid Layout",
       "Flex Box Layout",
-      "CSS Varibles",
-      "JAVASCRIPT",
+      "CSS Variables",
+      "Javascript",
     ],
   },
 
@@ -77,10 +77,10 @@ export const PROJECT_INFO: ProjectInfoType[] = [
       "CSS 3",
       "SASS",
       "BEM Methodology",
-      "CSS GRID Layout",
+      "CSS Grid Layout",
       "Flex Box Layout",
-      "CSS Varibles",
-      "JAVASCRIPT",
+      "CSS Variables",
+      "Javascript",
     ],
   },
 
