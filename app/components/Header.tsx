@@ -66,8 +66,6 @@ const Header = ({
             height="500"
             priority
             className="xs:ml-auto lg:mx-0 w-[27.5rem] scale-100"
-
-            // loading="lazy"
           />
         </div>
       </section>

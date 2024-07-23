@@ -25,6 +25,7 @@ export const PROJECT_INFO: ProjectInfoType[] = [
       "React-Context-Api",
       "React-Hooks",
       "React-Router-Dom-V-6",
+      "Tailwind CSS",
     ],
   },
   {
@@ -41,6 +42,7 @@ export const PROJECT_INFO: ProjectInfoType[] = [
       "React-Context-Api",
       "React-Hooks",
       "React-Router-Dom-V-6",
+      "Tailwind CSS",
       "Formik Library",
     ],
   },
