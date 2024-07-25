@@ -54,7 +54,7 @@ export const PROJECT_INFO: ProjectInfoType[] = [
     className: "lg:col-[3/-1]",
     liveUrl: "https://loopstudios-theta-sable.vercel.app/",
     overview:
-      "The primary goal of this project is to develop a compelling and visually appealing digital presence, modern, user-friendly and responsive website that effectively showcase.",
+      "Immersive experiences that deliver – Since its founding in 2011, VR Innovators has been pioneering world-class virtual reality projects for premier companies worldwide. As the leader in interactive VR, our award-winning creations have revolutionized businesses by providing digital experiences that align perfectly with their brand identities. By continually pushing the boundaries of innovation, VR Innovators has established itself as the leader in interactive VR, transforming the digital landscape for clients across the globe.",
     techStacks: [
       "HTML 5",
       "CSS 3",
@@ -73,7 +73,7 @@ export const PROJECT_INFO: ProjectInfoType[] = [
     className: "lg:col-[1/5]",
     liveUrl: "https://sunnyside-jade.vercel.app/",
     overview:
-      "The primary goal of this project is to develop a compelling and visually appealing digital presence, modern, user-friendly and responsive website that effectively showcase.",
+      "Sunnyside is a full-service creative agency dedicated to rapid brand growth through compelling visuals and strategic marketing. We create memorable graphic designs and stunning photography to elevate your brand's image. Our collaborative team ensures your brand connects with the right audience across digital platforms. Partner with us to make your brand stand out and resonate with your target market.",
     techStacks: [
       "HTML 5",
       "CSS 3",
