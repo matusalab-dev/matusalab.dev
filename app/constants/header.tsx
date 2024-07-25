@@ -9,7 +9,7 @@ export const HEADER_COPYRIGHT: HeaderCopyTypes[] = [
     tags: ["React", "Next.js"],
     headline: ["Front-End", "Shopify"],
     description:
-      "Hi there! I’m Matusala Abrha, a passionate introvert who loves building things with code. As I've grown as a developer, I've dedicated myself to personally developing web applications that meet high standards and provide exceptional user experiences.",
+      "Hi there! I’m Matusala Abrha, a passionate who loves building things with code. As I've grown as a developer, I've dedicated myself to personally developing web applications that meet high standards and provide exceptional user experiences.",
   },
   {
     tags: ["React", "Next.js"],
