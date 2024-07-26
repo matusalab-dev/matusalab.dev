@@ -14,7 +14,8 @@ export const PROJECT_INFO: ProjectInfoType[] = [
     title: "room",
     imgSrc: "/mockup/room-desktop-preview.jpg",
     description: " Furniture E-commerce store",
-    type: "custom store-front shopify as headless CMS",
+    // type: "custom store-front shopify as headless CMS",
+    type: "Web App",
     className: "lg:col-[1/5]",
 
     liveUrl: "https://room-store-two.vercel.app/",
