@@ -16,7 +16,7 @@ const satoshi = localFont({
 export const metadata: Metadata = {
   title: "Matusalab Personal website",
   description:
-    "Matusalab is a personal website for business owners who need support for their online presence",
+    "Matusalab is a portfolio website for business owners who need support for their online presence",
 };
 
 export default function RootLayout({
@@ -26,10 +26,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleTagManager gtmId="GTM-MLSWKVX8" />
       <body
         className={`${satoshi.className} antialiased w-full max-w-[87.5rem] mx-auto px-7 md:px-12`}
       >
-        <GoogleTagManager gtmId="GTM-MLSWKVX8" />
         {children}
         <Analytics />
         <SpeedInsights />
