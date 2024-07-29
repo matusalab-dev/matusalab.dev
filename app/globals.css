@@ -14,6 +14,7 @@
   --color--white: #fff;
   --color-bg: #9ab8a5;
   --color--bg: #edefee;
+  --color--light-brown: #e1dfdd;
   --white: white;
   --black: black;
 
@@ -71,10 +72,12 @@ main {
   /* custom css */
   .full-bleed {
     box-shadow: 0 0 0 100vmax var(--color--bg);
+    /* box-shadow: 0 0 0 100vmax var(--color--light-brown); */
     clip-path: inset(0-100vmax);
   }
   .inverse {
     background: var(--color--bg);
+    /* background: var(--color--light-brown); */
     /* color: white; */
   }
 
