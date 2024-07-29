@@ -29,7 +29,7 @@ export default function RootLayout({
       <body
         className={`${satoshi.className} antialiased w-full max-w-[87.5rem] mx-auto px-7 md:px-12`}
       >
-        <GoogleTagManager gtmId="G-LGSF7FLRXD" />
+        <GoogleTagManager gtmId="GTM-MLSWKVX8" />
         {children}
         <Analytics />
         <SpeedInsights />
