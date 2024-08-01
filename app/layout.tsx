@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const satoshi = localFont({
   src: [
@@ -25,8 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* replace the direct implementation of GA 4 using Google Tag Manager */}
-      {/* <GoogleTagManager gtmId="GTM-MLSWKVX8" /> */}
+      <GoogleTagManager gtmId="GTM-MLSWKVX8" />
       <body
         className={`${satoshi.className} antialiased w-full max-w-[87.5rem] mx-auto px-7 md:px-12`}
       >
