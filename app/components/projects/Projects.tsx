@@ -25,7 +25,8 @@ const Projects = ({ slug = "/" }: { slug: string }) => {
                 width={1200}
                 height={1200}
                 alt={projectInfo.title}
-                className=" rounded-[0.1rem] md:transition-[border-radius] md:ease-in-out md:hover:rounded-3xl"
+                className="rounded-[0.1rem] md:transition-[border-radius] md:ease-in-out md:hover:rounded-3xl"
+                placeholder="blur"
               />
               <Link
                 href={`${slug}/projects/${projectInfo.title}`}

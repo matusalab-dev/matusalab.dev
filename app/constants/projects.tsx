@@ -1,6 +1,10 @@
+import roomMockup from "@/public/mockup/room-desktop-preview.jpg";
+import littleLemonMockup from "@/public/mockup/b-mockup-pro-mobile.jpg";
+import loopstudiosMockup from "@/public/mockup/loopstudios-desktop-preview.jpg";
+import sunnysideMockup from "@/public/mockup/sunnyside-desktop-preview.jpg";
 export interface ProjectInfoType {
   title: string;
-  imgSrc: string;
+  imgSrc: any;
   description: string;
   type: string;
   className: string;
@@ -12,7 +16,7 @@ export interface ProjectInfoType {
 export const PROJECT_INFO: ProjectInfoType[] = [
   {
     title: "room",
-    imgSrc: "/mockup/room-desktop-preview.jpg",
+    imgSrc: roomMockup,
     description: " Furniture E-commerce store",
     // type: "custom store-front shopify as headless CMS",
     type: "Web App",
@@ -31,7 +35,7 @@ export const PROJECT_INFO: ProjectInfoType[] = [
   },
   {
     title: "little-lemon",
-    imgSrc: "/mockup/b-mockup-pro-mobile.jpg",
+    imgSrc: littleLemonMockup,
     description: "restaurant table reservation",
     type: "web app",
     className: "md:col-[1/-1] lg:col-[5/-1]",
@@ -49,7 +53,7 @@ export const PROJECT_INFO: ProjectInfoType[] = [
   },
   {
     title: "loopstudios",
-    imgSrc: "/mockup/loopstudios-desktop-preview.jpg",
+    imgSrc: loopstudiosMockup,
     description: "eye catching marketing landing page",
     type: "landing page",
     className: "lg:col-[3/-1]",
@@ -68,7 +72,7 @@ export const PROJECT_INFO: ProjectInfoType[] = [
 
   {
     title: "sunnyside",
-    imgSrc: "/mockup/sunnyside-desktop-preview.jpg",
+    imgSrc: sunnysideMockup,
     description: "high converting landing page",
     type: "landing page",
     className: "lg:col-[1/5]",
