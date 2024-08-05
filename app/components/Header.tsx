@@ -3,7 +3,7 @@ import NavBar from "./nav/NavBar";
 import { SocialIcons } from "./SocialIcons";
 import { NavBarType } from "../constants/navbar";
 import { HeaderCopyTypes } from "../constants/header";
-
+import authorImage from "../../public/portfolio-hero.jpg";
 const Header = ({
   headerNavBar,
   headerNavBarMobile,
@@ -60,12 +60,13 @@ const Header = ({
           <SocialIcons styleIcons="flex xs:flex-col order-1 xs:-order-1" />
 
           <Image
-            src="/portfolio-hero.jpg"
-            alt="profile image of Matusalab"
-            width="380"
+            src={authorImage}
+            alt="picture of author"
+            width="480"
             height="500"
             priority
-            className="xs:ml-auto lg:mx-0 w-[27.5rem] scale-100"
+            placeholder="blur"
+            className="xs:ml-auto lg:mx-0 xs:w-[24.5rem] lg:w-[30rem] scale-100"
           />
         </div>
       </section>

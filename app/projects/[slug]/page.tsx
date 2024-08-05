@@ -1,7 +1,9 @@
 "use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import { FC } from "react";
+
 import NavBar from "@/app/components/nav/NavBar";
 import { NAV_INFO_HOME } from "@/app/constants/navbar";
 import { ArrowVector } from "@/public/icons/ArrowVector";
@@ -19,11 +21,7 @@ interface PageProps {
 const Projects: FC<PageProps> = ({ params, searchParams }) => {
   const { slug } = params;
   const backLink = searchParams?.backLink || "../#project";
-  // const router = useRouter();
 
-  // const goToPortfolio = () => {
-  //   router.push("www.room-ecommerce.pages.dev");
-  // };
   return (
     <>
       <section className="inverse full-bleed pb-64 min-h-screen">

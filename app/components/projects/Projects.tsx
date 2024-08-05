@@ -16,7 +16,10 @@ const Projects = ({ slug = "/" }: { slug: string }) => {
         {/* projects grid */}
         <section className="mt-16 flex flex-col gap-16 lg:grid lg:grid-cols-6 lg:grid-rows-[min] lg:gap-x-6 lg:gap-y-24">
           {PROJECT_INFO.map((projectInfo, index) => (
-            <div key={projectInfo.title} className={projectInfo.className}>
+            <div
+              key={projectInfo.title}
+              className={`${projectInfo.className} `}
+            >
               <Image
                 src={projectInfo.imgSrc}
                 width={1200}
@@ -34,11 +37,11 @@ const Projects = ({ slug = "/" }: { slug: string }) => {
                     <h2 className="my-2 sm:my-4 text-2xl sm:text-3xl font-medium capitalize [letter-spacing:2px] text-black">
                       {projectInfo.title}
                     </h2>
-                    <h3 className="text-xs sm:text-sm uppercase font-light [letter-spacing:2.7px]">
+                    <h3 className="text-xs sm:text-sm uppercase font-light [letter-spacing:2.7px] text-[--color--heading] antialiased">
                       {projectInfo.type}
                       {/* Headless Commerce Setup */}
                     </h3>
-                    <h4 className="text-xs sm:text-sm tracking-wider text-[--color--grey] capitalize leading-snug mt-[0.2rem] text-pretty font-thin">
+                    <h4 className="text-xs sm:text-sm tracking-wider  text-[--color--grey] antialiased capitalize leading-snug mt-[0.2rem] text-pretty font-thin">
                       {projectInfo.description}
                     </h4>
                   </div>
@@ -51,7 +54,7 @@ const Projects = ({ slug = "/" }: { slug: string }) => {
                   />
                 </div>
               </Link>
-              <hr className="w-full mt-10 bg-black"></hr>
+              <hr className="divide-opacity-100 divide-dotted mt-10 bg-black"></hr>
             </div>
           ))}
         </section>

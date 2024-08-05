@@ -17,7 +17,7 @@ const MobileNavBar = ({
 }) => {
   return (
     <nav
-      role="mobile-navigation"
+      role="navigation"
       data-main-navigation
       className={`${
         !toggle ? "hidden" : "flex"
