@@ -19,10 +19,7 @@ const NavBar = ({
   const { isToggled, handleIsToggled } = useToggle();
 
   return (
-    <nav
-      role="mobile-navigation"
-      className="flex justify-between items-center pt-6"
-    >
+    <nav role="navigation" className="flex justify-between items-center pt-6">
       {/* logo */}
       <Logo logoLink={logoLink} />
 
