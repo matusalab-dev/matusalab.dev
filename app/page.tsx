@@ -1,7 +1,7 @@
 import Header from "./components/Header";
 import Projects from "./components/projects/Projects";
 // import Services from "./components/Services";
-import Certifications from "./components/Certifications";
+// import Certifications from "./components/Certifications";
 import { NAV_INFO_HOME } from "./constants/navbar";
 import Footer from "./components/Footer";
 import { HEADER_COPYRIGHT } from "./constants/header";
@@ -18,7 +18,6 @@ export default function Home() {
         selectedTag={0}
         logoLink="/"
       />
-      {/* <Services /> */}
       <Projects slug="." />
       {/* <Certifications /> */}
       <Footer logoLink="/" />
