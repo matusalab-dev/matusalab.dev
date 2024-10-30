@@ -2,22 +2,22 @@ const SERVICES = [
   {
     heading: "headless commerce setup",
     description:
-      "Crafting distinct brand identities and guidelines for lasting recognition in competitive markets, ensuring authenticity and resonance with your target audience",
+      "By decoupling your frontend from Shopify’s backend,  build a fast, fully customized site that boosts SEO, integrates with third-party tools, and delivers a unique, branded shopping experience.",
   },
   {
     heading: "Shopify Theme customization",
     description:
-      "Crafting distinct brand identities and guidelines for lasting recognition in competitive markets, ensuring authenticity and resonance with your target audience",
+      "offer personalized theme customization and bug-fixing services to help your store stand out and run smoothly",
   },
   {
     heading: "Payment gateway integration",
     description:
-      "seamlessly integrate your business with popular, secured and fast payment gateways like PayPal, Stripe, TeleBirr, Mpessa and many others",
+      "seamlessly integrate your business with popular, secured and fast payment gateways like  Stripe, PayPal, and many others",
   },
   {
     heading: "Store setup",
     description:
-      "Setting up distinct brand identities and guidelines for lasting recognition in competitive markets",
+      "covering theme customization, product listing, payment integration, and essential app installs. everything you need for a smooth launch. Focus on your business while I handle the details.",
   },
   //   {
   //     heading: "Managing store",
