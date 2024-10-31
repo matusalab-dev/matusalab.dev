@@ -14,9 +14,8 @@ const satoshi = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Matusalab Personal website",
-  description:
-    "Matusalab is a portfolio website for business owners who need support for their online presence",
+  title: "Matusalab Front-End Devloper | React.js | Next.js",
+  description: "Matusalab is a personal website to showcase my Work",
 };
 
 export default function RootLayout({
