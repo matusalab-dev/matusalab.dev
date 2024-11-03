@@ -18,16 +18,6 @@ const Certifications = () => {
           <hr className="w-full divide-black divide-solid divide-x-8 max-w-full mt-4 xs:mt-5 bg-black"></hr>
         </div>
       ))}
-      {/* <div className="mt-6 max-w-72">
-        <h4 className="capitalize text-black text-xl">
-          Principles of UI/UX Design
-        </h4>
-        <div className="mt-1 flex justify-between max-w-72">
-          <p>Taught by Meta</p>
-          <p>2020-current</p>
-        </div>
-        <hr className="w-full divide-black divide-solid divide-x-8 max-w-full mt-5 bg-black"></hr>
-      </div> */}
     </section>
   );
 };

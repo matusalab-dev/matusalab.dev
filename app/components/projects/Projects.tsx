@@ -50,8 +50,8 @@ export const ProjectCard = ({
         </div>
       </Link>
       <div className="relative">
-        <hr className="absolute h-[0.1rem] w-full mt-10 bg-black bg-opacity-50"></hr>
-        <hr className="absolute h-[0.1rem] mt-10 bg-black bg-opacity-0 w-0 group-hover:bg-opacity-100 transition-all duration-500 group-hover:w-full"></hr>
+        <hr className="absolute h-[0.125rem] inset-0 w-full mt-10 bg-black/50"></hr>
+        <hr className="absolute h-[0.125rem] inset-0 mt-10 bg-red w-0 group-hover:w-full group-hover:bg-black/100 transition-all duration-500"></hr>
       </div>
     </div>
   );
@@ -69,7 +69,7 @@ const Projects = ({ slug = "/" }: { slug?: string }) => {
         </h2>
 
         {/* projects grid */}
-        <section className="mt-16 grid grid-cols-1 gap-y-32 lg:grid-cols-6 lg:grid-rows-[min] lg:gap-x-6 lg:gap-y-24">
+        <section className="mt-16 grid grid-cols-1 grid-rows-[min-content] gap-y-32 lg:grid-cols-6 lg:grid-rows-[min] lg:gap-x-6 lg:gap-y-24">
           {PROJECT_INFO.map((projectInfo, index) => (
             <ProjectCard
               projectInfo={projectInfo}
