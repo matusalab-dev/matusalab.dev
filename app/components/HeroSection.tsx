@@ -47,7 +47,7 @@ const HeroSection = ({
         <Image
           src={authorImage}
           alt="picture of author"
-          width="480"
+          width="580"
           height="500"
           priority
           placeholder="blur"

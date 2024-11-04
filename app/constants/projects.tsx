@@ -57,7 +57,7 @@ export const PROJECT_INFO: ProjectInfoType[] = [
     id: 3,
     title: "loopstudios",
     imgSrc: loopstudiosMockup,
-    description: "eye catching marketing landing page",
+    description: "eye catching landing page",
     type: "landing page",
     className: "lg:col-[3/-1]",
     liveUrl: "https://loopstudios-theta-sable.vercel.app/",
