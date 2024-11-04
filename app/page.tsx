@@ -12,10 +12,7 @@ export default function Home() {
       <Header
         headerNavBar={NAV_INFO_HOME}
         headerNavBarMobile={NAV_INFO_HOME}
-        headerCopyright={HEADER_COPYRIGHT[0]}
         navBarRoute={0}
-        selectedHeadline={0}
-        selectedTag={0}
         logoLink="/"
       />
       <Projects slug="." />

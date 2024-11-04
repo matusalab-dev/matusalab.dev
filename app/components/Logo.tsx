@@ -19,17 +19,10 @@ const Logo = ({
     >
       <span className="tracking-wider">Matu </span>
       <span
-        className={`w-min bg-[--color--heading]  hover:bg-[--color--heading] text-[--color--bg] px-[0.375rem] sm:px-2  sm:py-[0.15rem] sm:mt-1 ${styleSuffix}`}
+        className={`w-min bg-[--color--heading] text-[--color--bg] px-[0.375rem] sm:px-2  sm:py-[0.15rem] sm:mt-1 ${styleSuffix}`}
       >
         salab
       </span>
-      {/* <Image
-        src="/mockup/Matusalab-logo.png"
-        alt="matusalab logo"
-        width="200"
-        height="200"
-        className="block max-w-full"
-      /> */}
     </Link>
   );
 };
