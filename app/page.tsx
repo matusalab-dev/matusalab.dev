@@ -5,6 +5,7 @@ import Projects from "./components/projects/Projects";
 import { NAV_INFO_HOME } from "./constants/navbar";
 import Footer from "./components/Footer";
 import { HEADER_COPYRIGHT } from "./constants/header";
+import Certifications from "./components/Certifications";
 
 export default function Home() {
   return (

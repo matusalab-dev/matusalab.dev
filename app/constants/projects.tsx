@@ -2,6 +2,7 @@ import roomMockup from "@/public/mockup/room-desktop-preview.jpg";
 import littleLemonMockup from "@/public/mockup/mockup for little-lemon project.png";
 import loopstudiosMockup from "@/public/mockup/loopstudios-desktop-preview.jpg";
 import sunnysideMockup from "@/public/mockup/sunnyside-desktop-preview.jpg";
+
 export interface ProjectInfoType {
   title: string;
   imgSrc: any;
@@ -18,14 +19,14 @@ export const PROJECT_INFO: ProjectInfoType[] = [
     id: 1,
     title: "room",
     imgSrc: roomMockup,
-    description: " Furniture E-commerce store",
+    description: "Furniture E-commerce store",
     // type: "custom store-front shopify as headless CMS",
     type: "Web App",
     className: "lg:col-[1/5]",
 
     liveUrl: "https://room-store-two.vercel.app/",
     overview:
-      "The Room project is an e-commerce platform designed to streamline furniture sales, providing a user-friendly interface for browsing and purchasing furniture. It was created to address the challenge of managing diverse product categories and enhancing the online shopping experience for wholesalers with multiple sales branches within the country with features like shopping product by category, hover add-to-cart, detailed product pages, and easy checkout.",
+      "The Room project is an e-commerce platform designed to streamline furniture sales, providing a user-friendly interface for browsing and purchasing furniture. It was created to address the challenge of managing diverse product categories and enhancing the online shopping experience for merchants with multiple sales branches within the country with features like shopping product by category, hover add-to-cart, detailed product pages, and easy checkout.",
     techStacks: [
       "React",
       "React-Context-Api",
@@ -94,13 +95,4 @@ export const PROJECT_INFO: ProjectInfoType[] = [
       "Javascript",
     ],
   },
-
-  // {
-  //   title: "room",
-  //   imgSrc: "/projects-mockup/room-desktop-preview.jpg",
-  //   description: "Headless Commerce Setup",
-  //   type: "Custom Store-front Shopify as headless CMS",
-  //   className: "w-full lg:col-[5/-1]",
-  // liveUrl:'https://www.room-ecommerce.pages.dev'
-  // },
 ];

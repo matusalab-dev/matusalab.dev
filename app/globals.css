@@ -4,9 +4,9 @@
 
 :root {
   --color--cream-yellow: #feeec6;
+  --fonts--heading: "Plus Jakarta Sans", sans-serif;
   --fonts--para: "Generalsans Variable", sans-serif;
   --color--dark: black;
-  --fonts--heading: "Plus Jakarta Sans", sans-serif;
   --color--grey: #454545;
   --color--yellow: #fbc53c;
   --color--heading: #151515;
@@ -17,9 +17,6 @@
   --color--light-brown: #e1dfdd;
   --white: white;
   --black: black;
-
-  scroll-behavior: smooth;
-  scroll-padding-top: 3em;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -69,8 +66,6 @@ main {
   }
   .inverse {
     background: var(--color--bg);
-    /* background: var(--color--light-brown); */
-    /* color: white; */
   }
 
   .full-bleed-background {

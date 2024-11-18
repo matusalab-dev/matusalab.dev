@@ -16,8 +16,8 @@ const Header = ({
   navBarRoute: number;
   logoLink: string;
 }) => {
-  const pathname = usePathname();
-
+  const currentPathname = usePathname();
+  const freelancePathname = "/freelancing";
   return (
     <header id="header" className="pb-24 inverse full-bleed">
       {/* nav-section */}
@@ -28,7 +28,7 @@ const Header = ({
         logoLink={logoLink}
       />
       {/* hero-section */}
-      {pathname === "/freelancing" ? (
+      {currentPathname === freelancePathname ? (
         <HeroSection
           headerCopyright={HEADER_COPYRIGHT[1]}
           selectedHeadline={1}

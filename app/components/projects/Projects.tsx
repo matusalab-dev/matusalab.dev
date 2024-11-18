@@ -29,7 +29,7 @@ export const ProjectCard = ({
             <p className="text-sm sm:text-[1rem] text-[--color--heading]">
               0{++index}
             </p>
-            <h2 className="my-2 sm:my-4 text-2xl sm:text-3xl font-medium capitalize [letter-spacing:2px] text-black">
+            <h2 className="my-2 text-2xl sm:my-4  sm:text-3xl font-medium capitalize [letter-spacing:2px] text-black">
               {title}
             </h2>
             <h3 className="text-xs sm:text-sm uppercase font-light [letter-spacing:2.7px]">
@@ -45,7 +45,7 @@ export const ProjectCard = ({
             alt="go to more details"
             width="20"
             height="20"
-            className="w-3 h-6 sm:w-4 sm:h-7  self-start "
+            className="w-3 h-6 sm:w-4 sm:h-7 self-start"
           />
         </div>
       </Link>

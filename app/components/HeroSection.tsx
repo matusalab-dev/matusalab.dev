@@ -1,8 +1,10 @@
 import Image from "next/image";
 
 import { SocialIcons } from "./SocialIcons";
-import authorImage from "../../public/portfolio-hero.jpg";
 import { HeaderCopyTypes } from "../constants/header";
+
+import authorImage from "../../public/portfolio-hero.jpg";
+import MarqueeSection from "./MarqueeSection";
 
 const HeroSection = ({
   headerCopyright,
@@ -14,19 +16,17 @@ const HeroSection = ({
   selectedHeadline: number;
 }) => {
   return (
-    <section className="sm:max-w-2xl sm:mx-auto lg:max-w-full grid grid-cols-1 gap-x-24 lg:gap-x-36 sm:hero-grid sm:gap-x-16 mt-32 lg:mt-44 space-y-16 lg:space-y-0">
+    <section className="sm:max-w-2xl sm:mx-auto lg:max-w-full grid grid-cols-1 gap-x-24 lg:gap-x-36 sm:hero-grid sm:gap-x-16 mt-32 lg:mt-28 space-y-16 lg:space-y-0">
       <div className="sm:col-span-full lg:col-[3/-1] lg:row-[1/-1]">
         <h1 className="text-[3.5rem] leading-none font-bold text-[--color--heading] md:flex md:flex-col md:justify-start md:gap-4 lg:gap-8 xs:text-[17.8vw] md:text-[14vw] lg:text-[10vw] sm:leading-[0.875] ">
-          <div className="slide-top relative md:flex md:items-start md:justify-start">
-            <span className="inline absolute left-1 -top-[0.12rem] xs:left-2 sm:left-3 sm:-top-3 font-normal text-[2.6vw] xs:text-[2.8vw] sm:text-[2.6vw] lg:text-[1.6vw] sm:font-normal tracking-widest">
+          <div className="relative md:flex md:items-start md:justify-start">
+            <span className="inline absolute left-1 -top-[0.12rem] xs:left-2 sm:left-3 sm:-top-3 font-normal text-[2.6vw] xs:text-[2.8vw] sm:text-[2.6vw] lg:text-[1.6vw] tracking-widest">
               {headerCopyright.tags[selectedTag]}
             </span>
             {headerCopyright.headline[selectedHeadline]}
           </div>
           {/* <ReactIcons /> */}
-          <div className="slide-top md:flex md:items-end justify-start ">
-            Developer
-          </div>
+          <div className="md:flex md:items-end justify-start ">Developer</div>
         </h1>
         <div className="flex flex-col gap-0 xs:gap-8 xs:flex-row items-start xs:items-center justify-between mt-12 space-y-16 xs:space-y-0">
           <p className="text-lg font-medium text-[--color--grey]  max-w-[37ch]">
@@ -53,6 +53,8 @@ const HeroSection = ({
           placeholder="blur"
           className="xs:ml-auto lg:mx-0 xs:w-[24.5rem] lg:w-[30rem] scale-100"
         />
+
+        {/* <MarqueeSection /> */}
       </div>
     </section>
   );
