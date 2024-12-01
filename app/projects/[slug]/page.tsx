@@ -5,6 +5,7 @@ import { FC } from "react";
 import NavBar from "@/app/components/nav/NavBar";
 import { NAV_INFO_HOME } from "@/app/constants/navbar";
 import { ArrowVector } from "@/public/icons/ArrowVector";
+import GithubIcon from "@/public/icons/GithubIcon";
 import { PROJECT_INFO } from "@/app/constants/projects";
 
 interface PageProps {
@@ -72,9 +73,19 @@ const Projects: FC<PageProps> = ({ params, searchParams }) => {
                       <h2 className="capitalize text-2xl sm:text-4xl">
                         Overview
                       </h2>
-                      <p className=" max-w-[45ch] text-lg ">
-                        {project.overview}
-                      </p>
+                      <div>
+                        <p className=" max-w-[45ch] text-lg ">
+                          {project.overview}
+                        </p>
+                        <Link
+                          href={project?.githubUrl}
+                          target="_blank"
+                          className="text-lg justify-start items-center w-max bg-white text-black px-3 border border-black py-[0.1rem] pr-2 mt-3 flex gap-1"
+                        >
+                          source code
+                          <GithubIcon />
+                        </Link>
+                      </div>
                     </div>
                     <div className="flex flex-col space-y-3">
                       <h3 className="capitalize text-2xl sm:text-4xl">

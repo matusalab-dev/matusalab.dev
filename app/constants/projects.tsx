@@ -25,6 +25,7 @@ export const PROJECT_INFO: ProjectInfoType[] = [
     className: "lg:col-[1/5]",
 
     liveUrl: "https://room-store-two.vercel.app/",
+    githubUrl: "https://github.com/matusalab-dev/room",
     overview:
       "The Room project is an e-commerce platform designed to streamline furniture sales, providing a user-friendly interface for browsing and purchasing furniture. It was created to address the challenge of managing diverse product categories and enhancing the online shopping experience for merchants with multiple sales branches within the country with features like shopping product by category, hover add-to-cart, detailed product pages, and easy checkout.",
     techStacks: [
@@ -43,6 +44,8 @@ export const PROJECT_INFO: ProjectInfoType[] = [
     type: "web app",
     className: "md:col-[1/-1] lg:col-[5/-1]",
     liveUrl: "https://little-lemon-eosin.vercel.app/",
+    githubUrl:
+      "https://github.com/matusalab-dev/Little-Lemon-Table-Reservation-Web-App",
     overview:
       "Little-Lemon Table Reservation Web App is a user-friendly solution designed to streamline the dining experience. Users can effortlessly browse available tables, select preferred time slots, and make reservations with ease.",
     techStacks: [
@@ -62,6 +65,8 @@ export const PROJECT_INFO: ProjectInfoType[] = [
     type: "landing page",
     className: "lg:col-[3/-1]",
     liveUrl: "https://loopstudios-theta-sable.vercel.app/",
+    githubUrl: "https://github.com/matusalab-dev/loopstudios-landing-page",
+
     overview:
       "Immersive experiences that deliver – Since its founding in 2011, VR Innovators has been pioneering world-class virtual reality projects for premier companies worldwide. As the leader in interactive VR, our award-winning creations have revolutionized businesses by providing digital experiences that align perfectly with their brand identities. By continually pushing the boundaries of innovation, VR Innovators has established itself as the leader in interactive VR, transforming the digital landscape for clients across the globe.",
     techStacks: [
@@ -82,6 +87,7 @@ export const PROJECT_INFO: ProjectInfoType[] = [
     type: "landing page",
     className: "lg:col-[1/5]",
     liveUrl: "https://sunnyside-jade.vercel.app/",
+    githubUrl: "https://github.com/matusalab-dev/sunnyside-agency-landing-page",
     overview:
       "Sunnyside is a full-service creative agency dedicated to rapid brand growth through compelling visuals and strategic marketing. We create memorable graphic designs and stunning photography to elevate your brand's image. Our collaborative team ensures your brand connects with the right audience across digital platforms. Partner with us to make your brand stand out and resonate with your target market.",
     techStacks: [
