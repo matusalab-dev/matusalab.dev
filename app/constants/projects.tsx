@@ -2,6 +2,7 @@ import roomMockup from "@/public/mockup/room-desktop-preview.jpg";
 import littleLemonMockup from "@/public/mockup/mockup for little-lemon project.png";
 import loopstudiosMockup from "@/public/mockup/loopstudios-desktop-preview.jpg";
 import sunnysideMockup from "@/public/mockup/sunnyside-desktop-preview.jpg";
+import gebeyaShopMockup from "@/public/mockup/gebeya-shop-desktop-mockup.png";
 
 export interface ProjectInfoType {
   title: string;
@@ -59,11 +60,27 @@ export const PROJECT_INFO: ProjectInfoType[] = [
   },
   {
     id: 3,
+    title: "gebeya-shop",
+    imgSrc: gebeyaShopMockup,
+    description: "store for multiple categories of products",
+    type: "Web app",
+    className: "lg:col-[3/-1]",
+    liveUrl: "https://gebeya-alpha.vercel.app/",
+    githubUrl: "https://github.com/matusalab-dev/gebeya",
+
+    overview:
+      "Gebeya Shop is a fully responsive e-commerce web application built using Next.js and TailwindCSS, showcasing my ability to create modern, user-friendly interfaces with advanced functionality.",
+    techStacks: ["Next.js 14", "Tailwind CSS"],
+  },
+  {
+    id: 4,
     title: "loopstudios",
     imgSrc: loopstudiosMockup,
     description: "eye catching landing page",
     type: "landing page",
-    className: "lg:col-[3/-1]",
+    // className: "lg:col-[3/-1]",
+    className: "lg:col-[1/5]",
+
     liveUrl: "https://loopstudios-theta-sable.vercel.app/",
     githubUrl: "https://github.com/matusalab-dev/loopstudios-landing-page",
 
@@ -80,12 +97,14 @@ export const PROJECT_INFO: ProjectInfoType[] = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "sunnyside",
     imgSrc: sunnysideMockup,
     description: "high converting landing page",
     type: "landing page",
-    className: "lg:col-[1/5]",
+    // className: "lg:col-[1/5]",
+    className: "md:col-[1/-1] lg:col-[5/-1]",
+
     liveUrl: "https://sunnyside-jade.vercel.app/",
     githubUrl: "https://github.com/matusalab-dev/sunnyside-agency-landing-page",
     overview:

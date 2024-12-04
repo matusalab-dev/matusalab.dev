@@ -56,7 +56,7 @@ const Projects: FC<PageProps> = ({ params, searchParams }) => {
                   <div className="space-y-12">
                     <div className="flex flex-row justify-between items-center gap-5 sm:items-center">
                       <h1 className="capitalize font-medium text-4xl xs:text-5xl sm:font-extrabold">
-                        {slug}
+                        {slug.replace("-", " ")}
                       </h1>
                       <a
                         href={project.liveUrl}
