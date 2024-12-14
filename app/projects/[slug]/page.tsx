@@ -8,6 +8,8 @@ import { ArrowVector } from "@/public/icons/ArrowVector";
 import GithubIcon from "@/public/icons/GithubIcon";
 import { PROJECT_INFO } from "@/app/constants/projects";
 
+export const runtime = "edge";
+
 interface PageProps {
   params: {
     slug: string;
