@@ -16,30 +16,30 @@ export interface ProjectInfoType {
 }
 
 export const PROJECT_INFO: ProjectInfoType[] = [
-  {
-    id: 5,
-    title: "Taxi tera",
-    imgSrc: roomMockup,
-    description: "Taxi stands Navigation Web app",
-    // type: "custom store-front shopify as headless CMS",
-    type: "Web App",
-    className: "lg:col-[1/5]",
+  // {
+  //   id: 5,
+  //   title: "Taxi tera",
+  //   imgSrc: roomMockup,
+  //   description: "Taxi stands Navigation Web app",
+  //   // type: "custom store-front shopify as headless CMS",
+  //   type: "Web App",
+  //   className: "lg:col-[1/5]",
 
-    liveUrl: "https://room-store-two.vercel.app/",
-    githubUrl: "https://github.com/matusalab-dev/room",
-    overview:
-      "The Room project is an e-commerce platform designed to streamline furniture sales, providing a user-friendly interface for browsing and purchasing furniture. It was created to address the challenge of managing diverse product categories and enhancing the online shopping experience for merchants with multiple sales branches within the country with features like shopping product by category, hover add-to-cart, detailed product pages, and easy checkout.",
-    techStacks: [
-      "Next.js",
-      "React.js",
-      "Tan-stack Query",
-      "App router",
-      "Tailwind CSS",
-      "Node.js",
-      "Express.js",
-      "Gebeta Maps API"
-    ],
-  },
+  //   liveUrl: "https://room-store-two.vercel.app/",
+  //   githubUrl: "https://github.com/matusalab-dev/room",
+  //   overview:
+  //     "The Room project is an e-commerce platform designed to streamline furniture sales, providing a user-friendly interface for browsing and purchasing furniture. It was created to address the challenge of managing diverse product categories and enhancing the online shopping experience for merchants with multiple sales branches within the country with features like shopping product by category, hover add-to-cart, detailed product pages, and easy checkout.",
+  //   techStacks: [
+  //     "Next.js",
+  //     "React.js",
+  //     "Tan-stack Query",
+  //     "App router",
+  //     "Tailwind CSS",
+  //     "Node.js",
+  //     "Express.js",
+  //     "Gebeta Maps API"
+  //   ],
+  // },
   {
     id: 1,
     title: "room",
