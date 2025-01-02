@@ -17,6 +17,30 @@ export interface ProjectInfoType {
 
 export const PROJECT_INFO: ProjectInfoType[] = [
   {
+    id: 5,
+    title: "Taxi tera",
+    imgSrc: roomMockup,
+    description: "Taxi stands Navigation Web app",
+    // type: "custom store-front shopify as headless CMS",
+    type: "Web App",
+    className: "lg:col-[1/5]",
+
+    liveUrl: "https://room-store-two.vercel.app/",
+    githubUrl: "https://github.com/matusalab-dev/room",
+    overview:
+      "The Room project is an e-commerce platform designed to streamline furniture sales, providing a user-friendly interface for browsing and purchasing furniture. It was created to address the challenge of managing diverse product categories and enhancing the online shopping experience for merchants with multiple sales branches within the country with features like shopping product by category, hover add-to-cart, detailed product pages, and easy checkout.",
+    techStacks: [
+      "Next.js",
+      "React.js",
+      "Tan-stack Query",
+      "App router",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "Gebeta Maps API"
+    ],
+  },
+  {
     id: 1,
     title: "room",
     imgSrc: roomMockup,
@@ -58,6 +82,27 @@ export const PROJECT_INFO: ProjectInfoType[] = [
       "Formik Library",
     ],
   },
+  // {
+  //   id: 3,
+  //   title: "Exclusive",
+  //   imgSrc: gebeyaShopMockup,
+  //   description: "store for multiple categories of products",
+  //   type: "Web app",
+  //   className: "lg:col-[3/-1]",
+  //   liveUrl: "https://gebeya-alpha.vercel.app/",
+  //   githubUrl: "https://github.com/matusalab-dev/gebeya",
+
+  //   overview:
+  //     "Exclusive is a fully responsive e-commerce web application built using Next.js and TailwindCSS, showcasing my ability to create modern, user-friendly interfaces with advanced functionality.",
+  //   techStacks: [
+  //     "Next.js 14",
+  //     "ContextAPI",
+  //     "Tailwind CSS",
+  //     "React-query(Tan-stack query)",
+  //     "FetchAPI",
+  //     "Rest API",
+  //   ],
+  // },
   {
     id: 3,
     title: "gebeya-shop",
@@ -96,28 +141,28 @@ export const PROJECT_INFO: ProjectInfoType[] = [
     ],
   },
 
-  {
-    id: 5,
-    title: "sunnyside",
-    imgSrc: sunnysideMockup,
-    description: "high converting landing page",
-    type: "landing page",
-    // className: "lg:col-[1/5]",
-    className: "md:col-[1/-1] lg:col-[5/-1]",
+  // {
+  //   id: 5,
+  //   title: "sunnyside",
+  //   imgSrc: sunnysideMockup,
+  //   description: "high converting landing page",
+  //   type: "landing page",
+  //   // className: "lg:col-[1/5]",
+  //   className: "md:col-[1/-1] lg:col-[5/-1]",
 
-    liveUrl: "https://sunnyside-jade.vercel.app/",
-    githubUrl: "https://github.com/matusalab-dev/sunnyside-agency-landing-page",
-    overview:
-      "Sunnyside is a full-service creative agency dedicated to rapid brand growth through compelling visuals and strategic marketing. We create memorable graphic designs and stunning photography to elevate your brand's image. Our collaborative team ensures your brand connects with the right audience across digital platforms. Partner with us to make your brand stand out and resonate with your target market.",
-    techStacks: [
-      "HTML 5",
-      "CSS 3",
-      "SASS",
-      "BEM Methodology",
-      "CSS Grid Layout",
-      "Flex Box Layout",
-      "CSS Variables",
-      "Javascript",
-    ],
-  },
+  //   liveUrl: "https://sunnyside-jade.vercel.app/",
+  //   githubUrl: "https://github.com/matusalab-dev/sunnyside-agency-landing-page",
+  //   overview:
+  //     "Sunnyside is a full-service creative agency dedicated to rapid brand growth through compelling visuals and strategic marketing. We create memorable graphic designs and stunning photography to elevate your brand's image. Our collaborative team ensures your brand connects with the right audience across digital platforms. Partner with us to make your brand stand out and resonate with your target market.",
+  //   techStacks: [
+  //     "HTML 5",
+  //     "CSS 3",
+  //     "SASS",
+  //     "BEM Methodology",
+  //     "CSS Grid Layout",
+  //     "Flex Box Layout",
+  //     "CSS Variables",
+  //     "Javascript",
+  //   ],
+  // },
 ];
