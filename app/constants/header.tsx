@@ -7,7 +7,7 @@ export interface HeaderCopyTypes {
 export const HEADER_COPYRIGHT: HeaderCopyTypes[] = [
   {
     tags: ["React", "Next.js"],
-    headline: ["Software", "Shopify"],
+    headline: ["Web", "Shopify"],
     description:
       // "Hi there! I’m Matusala Abrha, a passionate who loves building things with code. As I've grown as a developer, I've dedicated myself to personally developing web applications that meet high standards and provide exceptional user experiences.",
       // "Hi there! I’m Matusala Abrha, an Electrical and Computer Engineering graduate with hands-on experience, I have developed web solutions, such as an e-commerce furniture store. My skills include writing clean, thorough debugging, and writing technical documentation. I excel in collaborating with teams and staying updated with industry trends. My background and experience make me a strong fit for your software development position ",
