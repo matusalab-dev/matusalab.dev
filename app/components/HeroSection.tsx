@@ -21,9 +21,9 @@ const HeroSection = ({
       <div className="sm:col-span-full lg:col-[3/-1] lg:row-[1/-1]">
         <h1 className="text-[3.5rem] leading-none font-bold text-[--color--heading] md:flex md:flex-col md:justify-start md:gap-4 lg:gap-8 xs:text-[17.8vw] md:text-[14vw] lg:text-[10vw] sm:leading-[0.875] ">
           <div className="relative md:flex md:items-start md:justify-start">
-            {/* <span className="inline absolute left-1 -top-[0.12rem] xs:left-2 sm:left-3 sm:-top-3 font-normal text-[2.6vw] xs:text-[2.8vw] sm:text-[2.6vw] lg:text-[1.6vw] tracking-widest">
+            <span className="inline absolute left-1 -top-[0.12rem] xs:left-2 sm:left-3 sm:-top-3 font-normal text-[2.6vw] xs:text-[2.8vw] sm:text-[2.6vw] lg:text-[1.6vw] tracking-widest">
               {headerCopyright.tags[selectedTag]}
-            </span> */}
+            </span>
             {headerCopyright.headline[selectedHeadline]}
           </div>
           {/* <ReactIcons /> */}
