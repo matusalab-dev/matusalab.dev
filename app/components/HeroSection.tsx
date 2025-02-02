@@ -43,7 +43,7 @@ const HeroSection = ({
         </div>
 
         <a
-          href="https://drive.google.com/file/d/1gLltu6ErXl8dPQI4WpJnrMDpHkieHn7D/view?usp=sharing"
+          href="https://drive.google.com/file/d/1-wPXNW1oVrY120XzL4M3g27ezo-uQWpW/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
           className="w-[12.5rem] mt-10 text-[--color--black] text-xl font-medium antialiased relative flex flex-col justify-center items-center after:content-[''] after:w-full hover:after:mx-auto hover:after:w-[12.5rem] after:transition-[width] after:h-[0.09rem] after:bg-[--color--heading] after:block after:absolute after:top-9 tracking-wide hover:tracking-wider transition-[letter-spacing] ease-out duration-100"
