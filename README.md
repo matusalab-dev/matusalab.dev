@@ -1,6 +1,6 @@
 ### Matusalab is my personal website to show case my projects and services I can offer as freelance.
 
-[Visit www.matusalab.dev](https://www.matusalab.dev/)
+[Visit https://matusalab.vercel.app/](https://matusalab.vercel.app/)
 
 ## to run my project locally follow the instructions
 
