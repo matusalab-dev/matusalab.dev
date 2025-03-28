@@ -38,7 +38,7 @@ const Header = ({
         <HeroSection
           headerCopyright={HEADER_COPYRIGHT[0]}
           selectedHeadline={0}
-          selectedTag={0}
+          selectedTag={1}
         />
       )}
     </header>
