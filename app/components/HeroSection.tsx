@@ -30,7 +30,7 @@ const HeroSection = ({
           <div className="md:flex md:items-end justify-start ">Developer</div>
         </h1>
         <div className="flex flex-col gap-0 xs:gap-8 xs:flex-row items-start xs:items-center justify-between mt-12 space-y-16 xs:space-y-0">
-          <p className="text-lg font-medium text-[--color--grey]  max-w-[37ch]">
+          <p className="text-lg font-medium text-[--color--grey]  max-w-[42ch]">
             {headerCopyright.description}
           </p>
           <Image
