@@ -4,8 +4,8 @@ import { SocialIcons } from "./SocialIcons";
 import { HeaderCopyTypes } from "../constants/header";
 
 import authorImage from "../../public/portfolio-hero.jpg";
-import MarqueeSection from "./MarqueeSection";
-import Link from "next/link";
+// import MarqueeSection from "./MarqueeSection";
+// import Link from "next/link";
 
 const HeroSection = ({
   headerCopyright,
