@@ -38,7 +38,7 @@ export const ProjectCard = ({
               {description}
             </h4>
           </div>
-          <div className="flex flex-col justify-between">
+          <div className="flex md:flex-col justify-between">
             <Image
               src="/mockup/arrow-vector.svg"
               alt="go to more details"

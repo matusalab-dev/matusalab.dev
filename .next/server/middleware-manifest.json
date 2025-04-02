@@ -1,6 +1,30 @@
 {
   "version": 3,
   "middleware": {},
-  "functions": {},
+  "functions": {
+    "/projects/[slug]/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/projects/[slug]/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/projects/[slug]/page.js"
+      ],
+      "name": "app/projects/[slug]/page",
+      "page": "/projects/[slug]/page",
+      "matchers": [
+        {
+          "regexp": "^/projects/(?<slug>[^/]+?)$",
+          "originalSource": "/projects/[slug]"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "environments": {}
+    }
+  },
   "sortedMiddleware": []
 }
