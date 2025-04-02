@@ -11,17 +11,15 @@ export const ProjectCard = ({
   slug?: string;
   index: number;
 }) => {
-  const { title, className, imgSrc, type, description } = projectInfo;
+  const { title, className, imgSrc, type, description, status } = projectInfo;
 
   return (
     <div key={index} className={`${className} group flex flex-col`}>
       <Link href={`${slug}/projects/${title}`} className="self-start">
         <Image
           src={imgSrc}
-          width={1200}
-          height={1200}
           alt={title}
-          className="rounded-[0.1rem] md:transition-[border-radius] md:ease-in-out md:hover:rounded-3xl"
+          className="rounded-[0.1rem] md:transition-[border-radius] md:ease-in-out md:hover:rounded-3xl w-full"
           placeholder="blur"
         />
         <div className="flex flex-col gap-6 md:flex-row justify-between mt-6 text-[--color--heading] text-sm">
@@ -40,13 +38,16 @@ export const ProjectCard = ({
               {description}
             </h4>
           </div>
-          <Image
-            src="/mockup/arrow-vector.svg"
-            alt="go to more details"
-            width="20"
-            height="20"
-            className="w-3 h-6 sm:w-4 sm:h-7 self-start"
-          />
+          <div className="flex flex-col justify-between">
+            <Image
+              src="/mockup/arrow-vector.svg"
+              alt="go to more details"
+              width="20"
+              height="20"
+              className="w-3 h-6 sm:w-4 sm:h-7 self-end"
+            />
+            <p className="self-end">{status}</p>
+          </div>
         </div>
       </Link>
       <div className="relative">

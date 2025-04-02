@@ -1,7 +1,8 @@
 import roomMockup from "@/public/mockup/room-desktop-preview.jpg";
 import littleLemonMockup from "@/public/mockup/mockup for little-lemon project.png";
 import loopstudiosMockup from "@/public/mockup/loopstudios-desktop-preview.jpg";
-import sunnysideMockup from "@/public/mockup/sunnyside-desktop-preview.jpg";
+// import sunnysideMockup from "@/public/mockup/sunnyside-desktop-preview.jpg";
+import TaxiTeraMockup from "@/public/mockup/taxi-tera-project-mockup.png";
 import gebeyaShopMockup from "@/public/mockup/gebeya-shop-desktop-mockup.png";
 
 export interface ProjectInfoType {
@@ -42,6 +43,33 @@ export const PROJECT_INFO: ProjectInfoType[] = [
   // },
   {
     id: 1,
+    title: "taxi-tera",
+    imgSrc: TaxiTeraMockup,
+    description:
+      "Taxt-Tera is a web app that helps you find the best taxi stand",
+    // type: "custom store-front shopify as headless CMS",
+    type: "Web App",
+    className: "lg:col-[1/-1]",
+
+    liveUrl: "https://taxi-tera.vercel.app/",
+    githubUrl: "https://github.com/matusalab-dev/taxi-tera",
+    overview:
+      "Your Smart City Companion Taxt-Tera, a cutting-edge web app will Leverages Open routes service API and LeafletJS as tiles to optimize your taxi stand choices. - By integrating real-time traffic data, we ensure you reach your destination efficiently, saving you time and reducing stress.",
+    techStacks: [
+      "React",
+      "React-Context-Api",
+      "React-Hooks",
+      "React-Router-Dom-V-6",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+    ],
+    status: "under dev't",
+  },
+  {
+    id: 2,
     title: "room",
     imgSrc: roomMockup,
     description: "Furniture E-commerce store",
