@@ -42,7 +42,7 @@ const HeroSection = ({
           />
         </div>
 
-        <a
+        {/* <a
           href="https://www.canva.com/design/DAF3x-0KArc/W_Vl6qOSpCs4ddSO0e2ZCQ/view?utm_content=DAF3x-0KArc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5fdeb44787"
           target="_blank"
           rel="noreferrer"
@@ -64,7 +64,7 @@ const HeroSection = ({
               />
             </svg>
           </div>
-        </a>
+        </a> */}
       </div>
       <div className="flex flex-col xs:flex-row gap-6 sm:gap-4 lg:gap-10 sm:col-span-full lg:col-[1/3] lg:ml-0 lg:row-[1/-1]">
         <SocialIcons styleIcons="flex xs:flex-col order-1 xs:-order-1" />
