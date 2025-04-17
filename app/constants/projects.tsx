@@ -35,6 +35,7 @@ export const PROJECT_INFO: ProjectInfoType[] = [
       "Next.js",
       "App router",
       "Server functions",
+      "Next-Auth(Auth.js)",
       "Tailwind CSS",
       "Next-video",
       "swiper.js",
