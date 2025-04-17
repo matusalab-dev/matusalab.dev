@@ -12,7 +12,8 @@ const Certifications = () => {
           <div className="mt-1 flex justify-between">
             <p>Taught by {certs.offeredBy}</p>
             <p className="capitalize">
-              {certs.startDate} - {certs.endDate}
+              {certs.startDate}
+              {/* - {certs.endDate} */}
             </p>
           </div>
           <hr className="w-full divide-black divide-solid divide-x-8 max-w-full mt-4 xs:mt-5 bg-black"></hr>
