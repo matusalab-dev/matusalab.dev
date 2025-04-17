@@ -33,11 +33,12 @@ export const PROJECT_INFO: ProjectInfoType[] = [
       "Mhur is a Learning Management System (LMS) designed to facilitate online learning and course management. It provides a user-friendly interface for both instructors and students, enabling seamless course creation, enrollment, and progress tracking. With features like multimedia content support, Mhur enhances the online learning experience.",
     techStacks: [
       "Next.js",
+      "App router",
+      "Server functions",
       "Tailwind CSS",
       "Next-video",
       "swiper.js",
       "Rechart.js",
-      "App router",
       "Mux for video streaming",
     ],
   },

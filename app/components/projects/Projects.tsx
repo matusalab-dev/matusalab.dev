@@ -51,8 +51,8 @@ export const ProjectCard = ({
         </div>
       </Link>
       <div className="relative">
-        <hr className="absolute h-[0.125rem] inset-0 w-full mt-10 bg-black/50"></hr>
-        <hr className="absolute h-[0.125rem] inset-0 mt-10 bg-red w-0 group-hover:w-full group-hover:bg-black/100 transition-all duration-500"></hr>
+        <hr className="absolute h-[0.125rem] inset-0 w-full mt-4 md:mt-10 bg-black/50"></hr>
+        <hr className="absolute h-[0.125rem] inset-0 mt-4 md:mt-10 bg-red w-0 group-hover:w-full group-hover:bg-black/100 transition-all duration-500"></hr>
       </div>
     </div>
   );
