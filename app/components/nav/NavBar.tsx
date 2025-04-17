@@ -71,7 +71,7 @@ const NavBar = ({
           !isToggled ? "flex" : "hidden"
         } group  md:hidden items-center gap-2 sm:gap-3 cursor-pointer`}
       >
-        <div className="w-10 h-10 scale-95 group-hover:scale-100 transition-all  rounded-full  flex flex-col items-center justify-center gap-1">
+        <div className="w-10 h-10 scale-95 group-hover:scale-100 transition-all  rounded-full  flex flex-col items-center bg-black justify-center gap-1">
           <div className="w-4 group-hover:w-5 h-[1.75px] transition-all delay-75 bg-white"></div>
           <div className=" w-2 group-hover:w-3 h-[1.75px] transition-all delay-75 bg-white"></div>
         </div>

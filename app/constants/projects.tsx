@@ -4,6 +4,7 @@ import loopstudiosMockup from "@/public/mockup/loopstudios-desktop-preview.jpg";
 // import sunnysideMockup from "@/public/mockup/sunnyside-desktop-preview.jpg";
 import TaxiTeraMockup from "@/public/mockup/taxi-tera-project-mockup.png";
 import gebeyaShopMockup from "@/public/mockup/gebeya-shop-desktop-mockup.png";
+import MhurMockup from "@/public/mockup/mhur-LMS.png";
 
 export interface ProjectInfoType {
   title: string;
@@ -17,40 +18,40 @@ export interface ProjectInfoType {
 }
 
 export const PROJECT_INFO: ProjectInfoType[] = [
-  // {
-  //   id: 5,
-  //   title: "Taxi tera",
-  //   imgSrc: roomMockup,
-  //   description: "Taxi stands Navigation Web app",
-  //   // type: "custom store-front shopify as headless CMS",
-  //   type: "Web App",
-  //   className: "lg:col-[1/5]",
-
-  //   liveUrl: "https://room-store-two.vercel.app/",
-  //   githubUrl: "https://github.com/matusalab-dev/room",
-  //   overview:
-  //     "The Room project is an e-commerce platform designed to streamline furniture sales, providing a user-friendly interface for browsing and purchasing furniture. It was created to address the challenge of managing diverse product categories and enhancing the online shopping experience for merchants with multiple sales branches within the country with features like shopping product by category, hover add-to-cart, detailed product pages, and easy checkout.",
-  //   techStacks: [
-  //     "Next.js",
-  //     "React.js",
-  //     "Tan-stack Query",
-  //     "App router",
-  //     "Tailwind CSS",
-  //     "Node.js",
-  //     "Express.js",
-  //     "Gebeta Maps API"
-  //   ],
-  // },
   {
     id: 1,
+    title: "Mhur",
+    imgSrc: MhurMockup,
+    description: "Learning Management System",
+    // type: "custom store-front shopify as headless CMS",
+    type: "Web App",
+    className: "lg:col-[1/5]",
+
+    liveUrl: "https://mhur.vercel.app/",
+    githubUrl: "https://github.com/matusalab-dev/mhur",
+    overview:
+      "Mhur is a Learning Management System (LMS) designed to facilitate online learning and course management. It provides a user-friendly interface for both instructors and students, enabling seamless course creation, enrollment, and progress tracking. With features like multimedia content support, Mhur enhances the online learning experience.",
+    techStacks: [
+      "Next.js",
+      "Tailwind CSS",
+      "Next-video",
+      "swiper.js",
+      "Rechart.js",
+      "App router",
+      "Mux for video streaming",
+    ],
+  },
+  {
+    id: 2,
     title: "taxi-tera",
     imgSrc: TaxiTeraMockup,
     description:
       "Taxt-Tera is a web app that helps you find the best taxi stand",
     // type: "custom store-front shopify as headless CMS",
     type: "Web App",
-    className: "lg:col-[1/-1]",
-
+    className: "lg:col-[5/-1]",
+    story:
+      "The story of this project begins, When I first moved to my capital city Addis Ababa, navigating the maze of taxi stands quickly became one of my biggest challenges. Every time I needed to meet friends or visit local clients, I found myself wandering, unsure of which taxi stand would get me closest to my destination. The frustration grew when I realized that many trips required hopping between multiple taxi stands, adding layers of confusion to an already puzzling process. To make matters worse, I often had to rely on the kindness of strangers, stopping to ask for directions or advice on which taxi stand to head to next. It felt inefficient, disorganized, and at times overwhelming. The turning point came one day when I overheard someone else asking the same question I’d been asking myself: “Which taxi stands will take me where I need to go?” That was my lightbulb moment. This wasn’t just my problem—it was a shared struggle for many people, even those who had lived in the city for years. It struck me that something as fundamental as getting from point A to point B shouldn’t feel like solving a riddle. That’s when I realized I had the opportunity to build a solution: a web app that optimizes routes and recommends the right taxi stands using tools like the Gebeta Maps API(for localized data) and LeafletJS. This project isn’t just about solving my problem—it’s about creating a tool that simplifies life for countless others navigating the city.",
     liveUrl: "https://taxi-tera.vercel.app/",
     githubUrl: "https://github.com/matusalab-dev/taxi-tera",
     overview:
@@ -69,7 +70,7 @@ export const PROJECT_INFO: ProjectInfoType[] = [
     status: "under dev't",
   },
   {
-    id: 2,
+    id: 3,
     title: "room",
     imgSrc: roomMockup,
     description: "Furniture E-commerce store",
@@ -90,7 +91,7 @@ export const PROJECT_INFO: ProjectInfoType[] = [
     ],
   },
   {
-    id: 2,
+    id: 4,
     title: "little-lemon",
     imgSrc: littleLemonMockup,
     description: "restaurant table reservation",
@@ -132,7 +133,7 @@ export const PROJECT_INFO: ProjectInfoType[] = [
   //   ],
   // },
   {
-    id: 3,
+    id: 5,
     title: "gebeya-shop",
     imgSrc: gebeyaShopMockup,
     description: "store for multiple categories of products",
@@ -146,7 +147,7 @@ export const PROJECT_INFO: ProjectInfoType[] = [
     techStacks: ["Next.js 14", "Tailwind CSS"],
   },
   {
-    id: 4,
+    id: 6,
     title: "loopstudios",
     imgSrc: loopstudiosMockup,
     description: "eye catching landing page",

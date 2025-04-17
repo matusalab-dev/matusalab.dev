@@ -71,6 +71,18 @@ const Projects: FC<PageProps> = ({ params, searchParams }) => {
                         <ArrowVector color="white" width="12" height="12" />
                       </a>
                     </div>
+                    {project.story && (
+                      <div className="flex flex-col space-y-3">
+                        <h2 className="capitalize text-2xl sm:text-4xl">
+                          True Story
+                        </h2>
+                        <div>
+                          <p className=" max-w-[75ch] text-lg ">
+                            {project.story}
+                          </p>
+                        </div>
+                      </div>
+                    )}
                     <div className="flex flex-col space-y-3">
                       <h2 className="capitalize text-2xl sm:text-4xl">
                         Overview
