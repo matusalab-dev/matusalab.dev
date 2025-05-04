@@ -17,8 +17,8 @@ const HeroSection = ({
   selectedHeadline: number;
 }) => {
   return (
-    <section className="sm:max-w-2xl sm:mx-auto lg:max-w-full grid grid-cols-1 gap-x-24 lg:gap-x-36 sm:hero-grid sm:gap-x-16 mt-32 lg:mt-28 space-y-16 lg:space-y-0">
-      <div className="sm:col-span-full lg:col-[3/-1] lg:row-[1/-1]">
+    <section className="sm:max-w-2xl sm:mx-auto  grid grid-cols-1 sm:hero-grid gap-x-12 sm:gap-x-16 md:gap-x-24 lg:gap-x-36 justify-center mx-auto  mt-32 lg:mt-28 space-y-16 lg:space-y-0">
+      <div className="sm:col-span-full lg:col-[2/3] lg:row-[1/-1] relative">
         <h1 className="text-[4.25rem] leading-none font-bold text-[--color--heading] md:flex md:flex-col md:justify-start md:gap-4 lg:gap-8 xs:text-[17.8vw] md:text-[14vw] lg:text-[10vw] sm:leading-[0.875] ">
           <div className="relative md:flex md:items-start md:justify-start">
             <span className="inline absolute left-1 -top-[0.12rem] xs:left-2 sm:left-3 sm:-top-3 font-normal text-[3vw] xs:text-[2.8vw] sm:text-[2.6vw] lg:text-[1.6vw] tracking-widest">
@@ -29,7 +29,8 @@ const HeroSection = ({
           {/* <ReactIcons /> */}
           <div className="md:flex md:items-end justify-start ">Developer</div>
         </h1>
-        <div className="flex flex-col gap-0 xs:gap-8 xs:flex-row items-start xs:items-center justify-between mt-12 space-y-16 xs:space-y-0">
+
+        <div className="flex flex-col gap-0 xs:gap-8 xs:flex-row items-start xs:items-center justify-start mt-12 space-y-16 xs:space-y-0">
           <p className="text-lg font-medium text-[--color--grey]  max-w-[42ch]">
             {headerCopyright.description}
           </p>
@@ -41,7 +42,13 @@ const HeroSection = ({
             priority
           />
         </div>
-
+        <Image
+          src={authorImage}
+          alt="picture of author"
+          priority
+          placeholder="blur"
+          className=" z-50 scale-100 col-start-3 col-span-1 size-32 object-cover object-top rounded-full absolute top-16 -right-3 sm:-right-36 hidden md:block"
+        />
         {/* <a
           href="https://www.canva.com/design/DAF3x-0KArc/W_Vl6qOSpCs4ddSO0e2ZCQ/view?utm_content=DAF3x-0KArc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5fdeb44787"
           target="_blank"
@@ -67,9 +74,9 @@ const HeroSection = ({
         </a> */}
       </div>
       <div className="flex flex-col xs:flex-row gap-6 sm:gap-4 lg:gap-10 sm:col-span-full lg:col-[1/3] lg:ml-0 lg:row-[1/-1]">
-        <SocialIcons styleIcons="flex xs:flex-col order-1 xs:-order-1" />
+        <SocialIcons styleIcons="flex lg:flex-col order-1 xs:-order-1" />
 
-        <Image
+        {/* <Image
           src={authorImage}
           alt="picture of author"
           width="580"
@@ -77,8 +84,7 @@ const HeroSection = ({
           priority
           placeholder="blur"
           className="xs:ml-auto lg:mx-0 xs:w-[24.5rem] lg:w-[30rem] scale-100"
-        />
-
+        /> */}
         {/* <MarqueeSection /> */}
       </div>
     </section>
