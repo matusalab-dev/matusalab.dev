@@ -125,7 +125,7 @@ const Projects: FC<PageProps> = ({ params, searchParams }) => {
                     width={1000}
                     height={600}
                     placeholder="blur"
-                    style={{ marginTop: "10rem" }}
+                    className="mt-10 sm:mt-16"
                   />
                 </div>
               );

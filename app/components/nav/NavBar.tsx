@@ -75,7 +75,7 @@ const NavBar = ({
           <div className="w-4 group-hover:w-5 h-[1.75px] transition-all delay-75 bg-white"></div>
           <div className=" w-2 group-hover:w-3 h-[1.75px] transition-all delay-75 bg-white"></div>
         </div>
-        <p className="uppercase font-semibold font-[satoshi]">menu</p>
+        <p className="uppercase font-medium">menu</p>
       </button>
 
       {/* Mobile navBar */}

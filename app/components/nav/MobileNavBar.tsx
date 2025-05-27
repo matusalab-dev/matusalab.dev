@@ -33,7 +33,7 @@ const MobileNavBar = ({
         {/* nav-list */}
         <button
           onClick={onToggle}
-          className="flex gap-2 items-center justify-end uppercase text-xl font-semibold"
+          className="flex gap-2 items-center justify-end uppercase text-xl font-medium"
         >
           <span className="block w-10 sm:w-16 h-[0.12rem] bg-white"></span>
           close
