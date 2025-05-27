@@ -10,7 +10,10 @@ const Footer = ({
   logoLink: string;
 }) => {
   return (
-    <footer id="footer" className="pt-40 pb-4">
+    <footer
+      id="footer"
+      className="pt-40 pb-4 mt-16 md:mt-16 inverse full-bleed"
+    >
       <div className="flex flex-col items-center gap-10">
         <h4 className="text-5xl xs:text-7xl font-normal text-center max-w-[10ch] mx-auto">
           Interested In Working With Me?
