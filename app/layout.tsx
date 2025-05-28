@@ -5,6 +5,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { GoogleTagManager } from "@next/third-parties/google";
 import Head from "next/head";
+import Footer from "./components/Footer";
 
 const satoshi = localFont({
   src: [
@@ -33,6 +34,7 @@ export default function RootLayout({
         {children}
         <Analytics />
         <SpeedInsights />
+        <Footer logoLink="/" />
       </body>
     </html>
   );

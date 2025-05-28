@@ -18,7 +18,7 @@ export default function Home() {
       />
       <Projects slug="." />
       <Certifications />
-      <Footer logoLink="/" />
+      {/* <Footer logoLink="/" /> */}
     </>
   );
 }

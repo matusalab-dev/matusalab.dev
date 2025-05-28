@@ -15,7 +15,7 @@ export const ProjectCard = ({
 
   return (
     <div key={index} className={`${className} group flex flex-col`}>
-      <Link href={`${slug}/projects/${title}`} className="self-start">
+      <Link href={`${slug}/projects/${title}`} className="">
         <Image
           src={imgSrc}
           alt={title}

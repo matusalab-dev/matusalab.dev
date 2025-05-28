@@ -78,7 +78,7 @@ export const PROJECT_INFO: ProjectInfoType[] = [
     description: "Furniture E-commerce store",
     // type: "custom store-front shopify as headless CMS",
     type: "Web App",
-    className: "lg:col-[1/5]",
+    className: "md:col-[1/-1] lg:col-[1/5]",
 
     liveUrl: "https://room-store-two.vercel.app/",
     githubUrl: "https://github.com/matusalab-dev/room",

@@ -29,7 +29,7 @@ const Projects: FC<PageProps> = ({ params, searchParams }) => {
 
   return (
     <>
-      <section className="pb-64">
+      <section>
         <NavBar
           navBar={NAV_INFO_HOME}
           navBarMobile={NAV_INFO_HOME}
