@@ -17,6 +17,7 @@ const Freelancing = () => {
       <Services />
       <Projects slug="freelancing" />
       <Certifications />
+
       <Footer availability="for freelance" logoLink="/freelancing" />
     </>
   );

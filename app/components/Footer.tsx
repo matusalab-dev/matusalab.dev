@@ -1,6 +1,9 @@
+"use client";
+
 import Link from "next/link";
 import Logo from "./Logo";
 import { SocialIcons } from "./SocialIcons";
+import { usePathname } from "next/navigation";
 
 const Footer = ({
   availability = "to work",
@@ -9,6 +12,9 @@ const Footer = ({
   availability?: string;
   logoLink: string;
 }) => {
+  const currentPath = usePathname();
+  console.log("Current Path:", currentPath);
+
   return (
     <footer
       id="footer"

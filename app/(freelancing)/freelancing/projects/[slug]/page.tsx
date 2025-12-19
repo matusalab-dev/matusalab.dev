@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import NavBar from "@/app/components/nav/NavBar";
@@ -6,6 +8,7 @@ import { ArrowVector } from "@/public/icons/ArrowVector";
 import Footer from "@/app/components/Footer";
 import { FC } from "react";
 import { PROJECT_INFO } from "@/app/constants/projects";
+import { usePathname } from "next/navigation";
 
 interface PageProps {
   params: {
@@ -19,6 +22,8 @@ interface PageProps {
 const Projects: FC<PageProps> = ({ params, searchParams }) => {
   const { slug } = params;
   const backLink = searchParams?.backLink || "../#project";
+  const currentPath = usePathname();
+  console.log("Current Path:", currentPath);
 
   return (
     <>
@@ -110,10 +115,10 @@ const Projects: FC<PageProps> = ({ params, searchParams }) => {
   );
 };
 
-export async function generateStaticParams() {
-  return PROJECT_INFO.map((project) => ({
-    slug: project.slug,
-  }));
-}
+// export async function generateStaticParams() {
+//   return PROJECT_INFO.map((project) => ({
+//     slug: project.slug,
+//   }));
+// }
 
 export default Projects;

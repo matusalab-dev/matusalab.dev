@@ -34,6 +34,7 @@ export default function RootLayout({
         {children}
         <Analytics />
         <SpeedInsights />
+        {}
         <Footer logoLink="/" />
       </body>
     </html>

@@ -17,10 +17,6 @@ interface PageProps {
   };
 }
 
-// export async function generateStaticParams() {
-//   return PROJECT_INFO.map((projectInfo) => ({ title: projectInfo.title }));
-// }
-
 const Projects: FC<PageProps> = ({ params, searchParams }) => {
   const { slug } = params;
   const backLink = searchParams?.backLink || "../#project";
@@ -135,10 +131,12 @@ const Projects: FC<PageProps> = ({ params, searchParams }) => {
   );
 };
 
+// export async function generateStaticParams() {
+//   return PROJECT_INFO.map((project) => ({
+//     slug: project.slug,
+//   }));
+// }
 export async function generateStaticParams() {
-  return PROJECT_INFO.map((project) => ({
-    slug: project.slug,
-  }));
+  return PROJECT_INFO.map((projectInfo) => ({ slug: projectInfo.title }));
 }
-
 export default Projects;
