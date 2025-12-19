@@ -56,7 +56,11 @@ const Footer = ({
             </Link>
           </div>
         </div>
-        <Logo logoLink={logoLink} />
+        <div className="space-y-2">
+          <Logo logoLink={logoLink} />
+          <p>built with 💖 in Next.js & TailwindCSS</p>
+        </div>
+
         <div className="h-16 sm:h-24 flex flex-col items-end justify-between">
           <SocialIcons styleIcons="xs:flex-row flex xs:justify-between" />
           <p className="self-start sm:self-end">

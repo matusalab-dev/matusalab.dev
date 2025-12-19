@@ -70,7 +70,7 @@ const Projects = ({ slug = "/" }: { slug?: string }) => {
         </h2>
 
         {/* projects grid */}
-        <section className="mt-16 grid grid-cols-1 grid-rows-[min-content] gap-y-32 lg:grid-cols-6 lg:grid-rows-[min] lg:gap-x-6 lg:gap-y-24">
+        <section className="mt-16 grid grid-cols-1 grid-rows-[min-content] gap-y-14 sm:gap-y-24 lg:grid-cols-6 lg:grid-rows-[min] lg:gap-x-6 lg:gap-y-28">
           {PROJECT_INFO.map((projectInfo, index) => (
             <ProjectCard
               projectInfo={projectInfo}

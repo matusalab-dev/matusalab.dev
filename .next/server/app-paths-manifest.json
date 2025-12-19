@@ -1,5 +1,8 @@
 {
-  "/projects/[slug]/page": "static/webpack/app/projects/[slug]/page.57ea0a4e0a4e1168.hot-update.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/(freelancing)/freelancing/page": "app/(freelancing)/freelancing/page.js",
+  "/icon.ico/route": "app/icon.ico/route.js",
   "/page": "app/page.js",
-  "/icon.ico/route": "app/icon.ico/route.js"
+  "/(freelancing)/freelancing/projects/[slug]/page": "app/(freelancing)/freelancing/projects/[slug]/page.js",
+  "/projects/[slug]/page": "app/projects/[slug]/page.js"
 }
